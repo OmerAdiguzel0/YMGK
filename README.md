@@ -18,7 +18,6 @@ Bu depo, LGS Matematik sınavındaki kareköklü ifadeler konusuna ait geçmiş 
 - `notebooks/`: Keşifsel veri analizi ve prototip çalışmalar (Jupyter).
 - `reports/`: Otomatik üretilen raporlar, figürler.
 - `src/`: Tüm kaynak kodu (veri hazırlama, özellik çıkarımı, modelleme, pipeline).
-- `SWOTAnalizi/`, `SMARTHedefler/`, `Videolar/`: İstenen ek klasörler; içerik hazırlanınca doldur.
 
 ## Veri Kaynakları
 - MEB tarafından yayımlanan resmi LGS matematik kitapçıkları (PDF).
