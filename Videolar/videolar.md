@@ -9,4 +9,4 @@ Yasin Mahir NAMLI = https://youtu.be/pk13LTiT0dk
 Mehmet AYYILDIZ =
 https://youtu.be/vnASEPOJmgs
 
-İsmail ÖZTÜRK =
+İsmail ÖZTÜRK = https://youtu.be/gdxtuDfbiBc
