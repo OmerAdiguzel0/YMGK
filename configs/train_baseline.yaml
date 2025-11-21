@@ -1,0 +1,24 @@
+experiment_name: "baseline_tf_idf_classifier"
+seed: 42
+data:
+  processed_path: "/Users/oemiar/Desktop/YMGK/data/processed/koklu_dataset.csv"
+  text_field: "question_text"
+  target_field: "question_category"
+model:
+  type: "tfidf_logreg"
+  params:
+    ngram_range: [1, 2]
+    max_features: 20000
+    C: 1.0
+training:
+  test_size: 0.2
+  validation_size: 0.1
+  stratify: true
+evaluation:
+  metrics:
+    - "accuracy"
+    - "f1_macro"
+    - "classification_report"
+artifacts:
+  output_dir: "/Users/oemiar/Desktop/YMGK/models/baseline"
+

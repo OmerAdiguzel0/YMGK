@@ -1,0 +1,27 @@
+project_name: "lgs-karekok-tahmin"
+raw_data_dir: "/Users/oemiar/Desktop/YMGK/data/raw/lgs_meb_koklu"
+interim_data_dir: "/Users/oemiar/Desktop/YMGK/data/interim"
+processed_data_dir: "/Users/oemiar/Desktop/YMGK/data/processed"
+sources:
+  - name: "meb_resmi_kitapciklari"
+    type: "pdf"
+    pattern: "LGS_*_Matematik.pdf"
+    metadata:
+      year_range: [2018, 2024]
+      topic_filter: ["kareköklü ifadeler"]
+  - name: "deneme_paketleri"
+    type: "pdf"
+    pattern: "Deneme*_Matematik.pdf"
+    metadata:
+      include_publishers: ["özel_yayin_a", "özel_yayin_b"]
+  - name: "json_arşivi"
+    type: "json"
+    pattern: "*.json"
+    metadata:
+      schema: "question,options,answer,solution"
+text_extraction:
+  include_tables: true
+  image_ocr: true
+  tokenizer: "azerbaycan/bert-base-turkish-cased"
+  cache_dir: "/Users/oemiar/Desktop/YMGK/data/interim/cache"
+
