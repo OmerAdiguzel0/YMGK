@@ -37,6 +37,3 @@ Bu depo, LGS Matematik sınavındaki kareköklü ifadeler konusuna ait geçmiş 
 - `SMARTHedefler/`: Takvimli ve ölçülebilir hedef setleri.
 - `Videolar/`: Model demosu, veri toplama süreci veya eğitim anlatımları için medya dosyaları.
 
-## Lisans
-Veri setleri MEB ve diğer kaynakların telif koşullarına tabidir. Model ve kod MIT benzeri özgür bir lisansla paylaşılabilir; netleştirilene kadar “tümü hakları saklıdır” kabul edilmiştir.
-
