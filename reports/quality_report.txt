@@ -1,0 +1,50 @@
+
+📊 SORU KALİTE RAPORU
+============================================================
+              Özet               
+┏━━━━━━━━━━━━━━━━┳━━━━━━┳━━━━━━━┓
+┃ Kategori       ┃ Sayı ┃ Yüzde ┃
+┡━━━━━━━━━━━━━━━━╇━━━━━━╇━━━━━━━┩
+│ Toplam Soru    │ 28   │ 100%  │
+│ Mükemmel (90+) │ 0    │ 0.0%  │
+│ İyi (70-89)    │ 22   │ 78.6% │
+│ Orta (50-69)   │ 6    │ 21.4% │
+│ Zayıf (<50)    │ 0    │ 0.0%  │
+└────────────────┴──────┴───────┘
+
+Ortalama Kalite Puanı: 75.9/100
+
+❌ Toplam Sorun: 6
+⚠️  Toplam Uyarı: 71
+
+⚠️  Problemli Sorular (6 adet):
+  • Soru #2: 50/100 - Soru metni çok kısa veya boş
+  • Soru #6: 50/100 - Soru metni çok kısa veya boş
+  • Soru #8: 50/100 - Soru metni çok kısa veya boş
+  • Soru #5: 50/100 - Soru metni çok kısa veya boş
+  • Soru #15: 50/100 - Soru metni çok kısa veya boş
+  • Soru #23: 50/100 - Soru metni çok kısa veya boş
+
+📋 Detaylı Soru Listesi:
+
+  Soru #1 - GOOD (80/100)
+    Uyarılar: Sadece 1 seçenek var (normalde 4 olmalı), Soru işareti yok (soru 
+formatı şüpheli)
+
+  Soru #2 - FAIR (50/100)
+    Sorunlar: Soru metni çok kısa veya boş
+    Uyarılar: Sadece 1 seçenek var (normalde 4 olmalı), Soru işareti yok (soru 
+formatı şüpheli)
+
+  Soru #3 - GOOD (80/100)
+    Uyarılar: Seçenek yok (açık uçlu olabilir), Soru işareti yok (soru formatı 
+şüpheli)
+
+  Soru #4 - GOOD (80/100)
+    Uyarılar: Sadece 1 seçenek var (normalde 4 olmalı), Soru işareti yok (soru 
+formatı şüpheli)
+
+  Soru #6 - FAIR (50/100)
+    Sorunlar: Soru metni çok kısa veya boş
+    Uyarılar: Seçenek yok (açık uçlu olabilir), Soru işareti yok (soru formatı 
+şüpheli)

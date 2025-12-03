@@ -13,11 +13,17 @@ def read_yaml(path: str | pathlib.Path) -> Dict[str, Any]:
         return yaml.safe_load(handle)
 
 
-def write_json(data: Dict[str, Any], path: str | pathlib.Path) -> None:
+def write_json(data: Dict[str, Any] | list, path: str | pathlib.Path) -> None:
     path = pathlib.Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         json.dump(data, handle, ensure_ascii=False, indent=2)
+
+
+def read_json(path: str | pathlib.Path) -> Dict[str, Any] | list:
+    path = pathlib.Path(path)
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
 
 
 def ensure_dir(path: str | pathlib.Path) -> pathlib.Path:
