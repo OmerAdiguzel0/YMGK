@@ -1,0 +1,17 @@
+[
+  {
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? <OPT_0B) 14) 12 D) 37 D) 56 çenin çevresi kaç metA) 15r? A) 7v10",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "a ve b birer doğal sayı olmak üzere avb - ya? A) 25B) 11 <OPT_2D) 14109 D) 7.2",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "question_text": "148 sayısına en yakın tam kare sayı aşağı- (67 Tamkare olmayan kaç tane rakam vardır? <OPT_B) 16 B<OPT_A) 81 D)10 A) 156",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  }
+]

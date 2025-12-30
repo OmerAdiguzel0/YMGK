@@ -210,39 +210,89 @@ class QuestionGenerator:
             print(f"[red]Hata:[/red] LLM generation hatası: {e}")
             return []
     
+    def _clean_question_text(self, text: str) -> str:
+        """Soru metnini temizle ve düzelt."""
+        # Encoding sorunlarını temizle
+        text = re.sub(r'\(cid:\d+\)', '', text)
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        # Çok uzun metinleri kısalt (muhtemelen birleşmiş sorular)
+        if len(text) > 500:
+            # Soru işareti veya seçenek başlangıcına kadar al
+            question_end = max(
+                text.find('?'),
+                text.find('A)'),
+                text.find('B)'),
+                text.find('C)'),
+                text.find('D)')
+            )
+            if question_end > 100:  # En az 100 karakter olsun
+                text = text[:question_end + 1]
+        
+        return text
+    
+    def _extract_single_question(self, text: str) -> Optional[str]:
+        """Metinden tek bir soru çıkar (birleşmiş soruları ayır)."""
+        # İlk soru işaretine kadar al (en güvenli yöntem)
+        first_question_mark = text.find('?')
+        if first_question_mark > 0:
+            # Soru işaretinden sonraki seçenekleri de al
+            question_part = text[:first_question_mark + 1]
+            
+            # Seçenekleri bul (soru işaretinden sonraki ilk 4 seçenek)
+            after_question = text[first_question_mark + 1:]
+            options = re.findall(r'[A-D][\.\)]\s*[^A-D]*?(?=[A-D][\.\)]|$)', after_question)
+            
+            # İlk 4 seçeneği al
+            if len(options) >= 4:
+                options_text = ' '.join(options[:4])
+                return (question_part + ' ' + options_text).strip()
+            elif len(options) > 0:
+                options_text = ' '.join(options)
+                return (question_part + ' ' + options_text).strip()
+            else:
+                # Seçenek yoksa sadece soru kısmını döndür
+                return question_part.strip()
+        
+        # Soru işareti yoksa, ilk seçeneklere kadar al
+        first_option = re.search(r'[A-D][\.\)]', text)
+        if first_option:
+            return text[:first_option.start()].strip()
+        
+        # Hiçbiri yoksa, ilk 200 karakteri al
+        if len(text) > 200:
+            return text[:200].strip()
+        
+        return text.strip()
+    
     def generate_from_original(self, original_text: str, num_variations: int = 1) -> List[str]:
         """Orijinal sorudan sadece sayıları değiştirerek yeni sorular üret (daha güvenli)."""
         variations = []
         
+        # Önce soruyu temizle ve tek soru çıkar
+        cleaned = self._clean_question_text(original_text)
+        single_question = self._extract_single_question(cleaned)
+        
+        if not single_question or len(single_question) < 30:
+            return []
+        
         for _ in range(num_variations):
-            question = original_text
+            question = single_question
             
-            # Temizlik
-            question = re.sub(r'\(cid:\d+\)', '', question)
-            question = re.sub(r'\s+', ' ', question).strip()
+            # Seçenekleri bul ve koru
+            option_matches = list(re.finditer(r'([A-D])[\.\)]\s*(\d+)', question))
             
-            # Sadece sayıları değiştir (seçeneklerdeki sayıları koru)
-            # Seçenekleri koru: A) 12, B) 34 gibi
-            option_pattern = r'([A-D])[\.\)]\s*(\d+)'
+            # Seçenekleri geçici olarak değiştir (ters sırada, index kaymasını önlemek için)
+            option_placeholders = {}
+            for i, match in enumerate(reversed(option_matches)):
+                placeholder = f'__OPT_PLACEHOLDER_{len(option_matches)-1-i}__'
+                option_placeholders[placeholder] = match.group(0)
+                # Ters sırada değiştir ki index kayması olmasın
+                start, end = match.span()
+                question = question[:start] + placeholder + question[end:]
             
+            # Sayıları değiştir (seçenekler hariç - placeholder'lar sayı içermiyor)
             def replace_number(match):
-                letter = match.group(1)
-                num = int(match.group(2))
-                # Seçeneklerdeki sayıları biraz değiştir (ama mantıklı aralıkta)
-                if num < 10:
-                    new_num = random.randint(1, 20)
-                elif num < 50:
-                    new_num = random.randint(10, 60)
-                else:
-                    new_num = random.randint(40, 100)
-                return f"{letter}) {new_num}"
-            
-            # Seçeneklerdeki sayıları değiştir
-            question = re.sub(option_pattern, replace_number, question)
-            
-            # Diğer sayıları değiştir (ama daha dikkatli)
-            # Soru metnindeki sayıları bul ve değiştir
-            def replace_other_number(match):
                 num = int(match.group(0))
                 # Sayı aralığına göre değiştir
                 if num < 10:
@@ -254,21 +304,30 @@ class QuestionGenerator:
                 else:
                     return str(random.randint(80, 200))
             
-            # Seçenekler dışındaki sayıları değiştir
-            # Önce seçenekleri koru
-            options_text = ' '.join(re.findall(r'[A-D][\.\)]\s*\d+', question))
-            question_without_options = question
+            question = re.sub(r'\b\d+\b', replace_number, question)
             
-            # Seçenekleri geçici olarak değiştir
-            temp_question = re.sub(r'[A-D][\.\)]\s*\d+', '<OPT>', question_without_options)
-            # Sayıları değiştir
-            temp_question = re.sub(r'\b\d+\b', replace_other_number, temp_question)
-            # Seçenekleri geri koy
-            option_matches = re.findall(r'[A-D][\.\)]\s*\d+', question)
-            for opt in option_matches:
-                temp_question = temp_question.replace('<OPT>', opt, 1)
-            question = temp_question
+            # Seçenekleri geri koy (sayıları da değiştir)
+            for placeholder, original_opt in option_placeholders.items():
+                # Seçenekteki sayıyı değiştir
+                opt_match = re.match(r'([A-D])[\.\)]\s*(\d+)', original_opt)
+                if opt_match:
+                    letter = opt_match.group(1)
+                    num = int(opt_match.group(2))
+                    # Seçeneklerdeki sayıları biraz değiştir
+                    if num < 10:
+                        new_num = random.randint(1, 20)
+                    elif num < 50:
+                        new_num = random.randint(10, 60)
+                    else:
+                        new_num = random.randint(40, 100)
+                    new_opt = f"{letter}) {new_num}"
+                    question = question.replace(placeholder, new_opt)
+                else:
+                    # Eğer parse edilemediyse, orijinalini koy
+                    question = question.replace(placeholder, original_opt)
             
+            # Final temizlik
+            question = re.sub(r'\s+', ' ', question).strip()
             variations.append(question)
         
         return variations
@@ -284,13 +343,37 @@ class QuestionGenerator:
         
         # Orijinal sorulardan varyasyon üret (daha güvenli)
         if method in ["original", "hybrid"] and seed_questions:
-            # Kaliteli soruları seç
-            quality_questions = [
-                q for q in seed_questions 
-                if q.get("full_text", q.get("raw_text", "")) and 
-                   len(q.get("full_text", q.get("raw_text", ""))) > 50 and
-                   len(q.get("full_text", q.get("raw_text", ""))) < 500
-            ]
+            # Kaliteli soruları seç (daha sıkı kriterler)
+            quality_questions = []
+            for q in seed_questions:
+                text = q.get("full_text", q.get("raw_text", ""))
+                if not text:
+                    continue
+                
+                # Temizle
+                text = self._clean_question_text(text)
+                
+                # Tek soru çıkar (birleşmiş soruları ayır)
+                single_q = self._extract_single_question(text)
+                if not single_q or len(single_q) < 30:
+                    continue
+                
+                # Kalite kriterleri
+                has_question_mark = '?' in single_q
+                has_options = bool(re.search(r'[A-D][\.\)]', single_q))
+                reasonable_length = 30 <= len(single_q) <= 300
+                not_too_many_numbers = len(re.findall(r'\d+', single_q)) <= 12
+                not_too_many_vars = len(re.findall(r'\b[a-z]\b', single_q, re.IGNORECASE)) <= 20
+                
+                # Çok fazla anlamsız karakter yok
+                special_chars = len(re.findall(r'[^a-zA-Z0-9\s\.\,\?\(\)\[\]\-\+\=\√]', single_q))
+                reasonable_special = special_chars <= 10
+                
+                if has_question_mark and has_options and reasonable_length and not_too_many_numbers and not_too_many_vars and reasonable_special:
+                    quality_questions.append({
+                        **q,
+                        "cleaned_text": single_q
+                    })
             
             if quality_questions:
                 selected = random.sample(
@@ -299,15 +382,16 @@ class QuestionGenerator:
                 )
                 
                 for q in selected:
-                    text = q.get("full_text", q.get("raw_text", ""))
+                    text = q.get("cleaned_text", q.get("full_text", q.get("raw_text", "")))
                     variations = self.generate_from_original(text, num_variations=1)
                     
                     for var in variations:
-                        generated.append({
-                            "question_text": var,
-                            "generation_method": "original_variation",
-                            "source": q.get("source_file", "unknown")
-                        })
+                        if var and len(var) > 30:  # Geçerli soru kontrolü
+                            generated.append({
+                                "question_text": var,
+                                "generation_method": "original_variation",
+                                "source": q.get("source_file", "unknown")
+                            })
         
         if method in ["template", "hybrid"]:
             if not self.templates and seed_questions:

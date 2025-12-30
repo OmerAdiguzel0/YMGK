@@ -1,0 +1,12 @@
+[
+  {
+    "question_text": "sayısına en yakın tam sayı kaçtır? A) 2 B) 5 C) 10",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "4y20 3 184 işleminin sonucu kaçtır? A) 49 D) 47 A) V5",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  }
+]
