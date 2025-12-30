@@ -1,0 +1,354 @@
+[
+  {
+    "question_number": "2",
+    "raw_text": "2 2 +4 2 işleminin sonucu kaçtır?",
+    "full_text": "2 2 +4 2 işleminin sonucu kaçtır? 3−7 −5 7 işleminin sonucu aşağıdakilerden hangisidir? A) 6 4 B) 8 2 C) 8 4 D) 6 2 A) 8 7 B) −8 7 C) −2 7 D) −8 14 ñ7 + 2ñ7 Verilen işlemin sonucu aşağıdakilerden hangisi- 33 + + 3 3 işle minin sonucu kaçtır? dir? A)3 B) 3 3 C) 4 3 D) 5 3 A)3ñ7 B)2ñ7 C)2ñ14 D)3ñ14 27",
+    "options": [
+      "A) 6 4",
+      "B) 8 2",
+      "C) 8 4",
+      "D) 6 2",
+      "A) 8 7",
+      "B) −8 7",
+      "C) −2 7",
+      "A) 3",
+      "B) 3 3",
+      "C) 4 3",
+      "D) 5 3",
+      "A) 3ñ7",
+      "B) 2ñ7",
+      "C) 2ñ14",
+      "D) 3ñ14 27"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p2_q2.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "75",
+    "raw_text": "75 + 12−4⋅ 4 Yukarıda ver�len �şlem�n sonucu kaçtır?",
+    "full_text": "75 + 12−4⋅ 4 Yukarıda ver�len �şlem�n sonucu kaçtır? 4 11 − 2 11 + 5 11 − 10 11işleminin sonucu A) 3 B) 2 3 C) 3 3 D) 4 3 aşağıdakilerden hangisidir? A) 3 11 B) 17 11 C) −3 11 D) −3 22 ñ ñ ó ò ò",
+    "options": [
+      "A) 3",
+      "B) 2 3",
+      "C) 3 3",
+      "D) 4 3 aşağıdakilerden hangisidir?",
+      "A) 3 11",
+      "B) 17 11",
+      "C) −3 11",
+      "D) −3 22 ñ ñ ó ò ò"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p2_q75.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "3",
+    "raw_text": "3 5 – 20 + 125 20 + 45 Verilen işlemin sonucu aşağıdakilerden hangisi- Verilen işlemin sonucu aşağıdakilerden hangisi- dir?",
+    "full_text": "3 5 – 20 + 125 20 + 45 Verilen işlemin sonucu aşağıdakilerden hangisi- Verilen işlemin sonucu aşağıdakilerden hangisi- dir? dir? ñ ñ ñ ñ ñ ñ ò ò A)5 5 B)6 5 C)7 5 D)10 5 A)5 5 B)4 5 C) 75 D) 65",
+    "options": [
+      "A) 5 5",
+      "B) 6 5",
+      "C) 7 5",
+      "D) 10 5",
+      "A) 5 5",
+      "B) 4 5",
+      "C) 75",
+      "D) 65"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p2_q3.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "7",
+    "raw_text": "7 5 +5 5 −4 5 işleminin sonucu kaçtır?",
+    "full_text": "7 5 +5 5 −4 5 işleminin sonucu kaçtır? Alanı 20 cm2 olan kare biçimindeki bir karto- nun çevre uzunluğu kaç santimetredir? A) 8 5 B) 12 5 C) 16 5 D) 8 15 ò ò ñ A) 20 B) 80 C)8 5 D)25 ñ ó ñ (5 3 – 108) · 2 3 ñ ò",
+    "options": [
+      "A) 8 5",
+      "B) 12 5",
+      "C) 16 5",
+      "D) 8 15 ò ò ñ",
+      "A) 20",
+      "B) 80",
+      "C) 8 5",
+      "D) 25 ñ ó ñ (5 3 – 108) · 2 3 ñ ò"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p2_q7.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "5",
+    "raw_text": "5 6 m uzunluğundaki bir telden önce 24 m Verilen işlemin sonucu aşağıdakilerden hangi- ò uzunluğunda bir parça kesilip atılıyor. Sonra 54 sidir?",
+    "full_text": "5 6 m uzunluğundaki bir telden önce 24 m Verilen işlemin sonucu aşağıdakilerden hangi- ò uzunluğunda bir parça kesilip atılıyor. Sonra 54 sidir? m uzunluğundaki başka bir tel kaynakla ekleniyor. ñ ñ A)6 3 B)6 C)–6 D)–6 3 Buna göre son durumda telin uzunluğu kaç metre olur? ñ ñ ñ ñ A)6 6 B)5 6 C)4 6 D)3 6",
+    "options": [
+      "A) 6 3",
+      "B) 6",
+      "C) –6",
+      "A) 6 6",
+      "B) 5 6",
+      "C) 4 6",
+      "D) 3 6"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p2_q5.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "12",
+    "raw_text": "12 − 3 + 3 3 işleminin sonucu aşağıdakilerden 50 + 200 − 98 işleminin sonucu kaçtır?",
+    "full_text": "12 − 3 + 3 3 işleminin sonucu aşağıdakilerden 50 + 200 − 98 işleminin sonucu kaçtır? hangisidir? A) 22 2 B) 152 C) 22 6 D) 8 2 A) 5 3 B) 4 3 C)3 12 D) 3 18 147+ 27− 48 147 2 27 Yukarıda ver�len �şlem�n sonucu kaçtır? Yukarıda ver�len �şlem�n sonucu kaçtır? A)4 3 B)5 3 C)6 3 D)7 3 A) 3 B) 2 3 C) 3 3 D) 4 3 6",
+    "options": [
+      "A) 22 2",
+      "B) 152",
+      "C) 22 6",
+      "D) 8 2",
+      "A) 5 3",
+      "B) 4 3",
+      "C) 3 12",
+      "A) 4 3",
+      "B) 5 3",
+      "C) 6 3",
+      "D) 7 3",
+      "A) 3",
+      "B) 2 3",
+      "C) 3 3",
+      "D) 4 3 6"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p3_q12.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 3
+  },
+  {
+    "question_number": "2",
+    "raw_text": "2 12+ 75 − 3 Yukarıda ver�len �şlem�n sonucu kaçtır?",
+    "full_text": "2 12+ 75 − 3 Yukarıda ver�len �şlem�n sonucu kaçtır? 18 + 50 işleminin sonucu kaçtır? A)8 3 B)7 3 C)6 3 D)5 3 A) 68 B) 3 2 C) 5 2 D) 8 2",
+    "options": [
+      "A) 8 3",
+      "B) 7 3",
+      "C) 6 3",
+      "D) 5 3",
+      "A) 68",
+      "B) 3 2",
+      "C) 5 2",
+      "D) 8 2"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p3_q2.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 3
+  },
+  {
+    "question_number": "75",
+    "raw_text": "75 – y + 3 = 192 A) 7 5 B) 8 5 C) 9 5 D) 10 5 Yukarıda verilen eşitliklere göre x – y işleminin sonucu kaçtır?",
+    "full_text": "75 – y + 3 = 192 A) 7 5 B) 8 5 C) 9 5 D) 10 5 Yukarıda verilen eşitliklere göre x – y işleminin sonucu kaçtır? ñ ñ ñ ñ A)2 3 B)7 3 C)9 3 D)13 3 I. ñ1 + ñ1 = ñ2 II. 100+121 = 21 Aşağıdakilerden hangisi yanlıştır? III. 7ñ5 – 7ñ5 = 0 A) - 2+5 2+3 2 =7 2 IV. 4ñ3 + 5ñ3 – ñ3 = 8ñ3 B) 3 5-3 5 =0 Yukarıdaki eşitliklerden hangileri doğrudur? C) 3 2+3 3 =5 5 D) 5+ 5+ 5 = 45 A)I ve III. B)II ve III. C)II ve IV. D)III ve IV.",
+    "options": [
+      "A) 2 3",
+      "B) 7 3",
+      "C) 9 3",
+      "A) - 2+5 2+3 2 =7 2 IV. 4ñ3 + 5ñ3 – ñ3 = 8ñ3",
+      "B) 3 5-3 5 =0 Yukarıdaki eşitliklerden hangileri doğrudur?",
+      "C) 3 2+3 3 =5 5",
+      "D) 5+ 5+ 5 = 45",
+      "A) I ve III.",
+      "B) II ve III.",
+      "C) II ve IV.",
+      "D) III ve IV."
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p3_q75.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 3
+  },
+  {
+    "question_number": "4",
+    "raw_text": "4 ñ 3 + ñ 5 – 5 ñ 3 + 5 ñ 5 işleminin sonucu aşağıdakiler- 3 ò 18 + ó 128 – 3 ò 50 işleminin sonucu aşağıdakiler- den hangisidir?",
+    "full_text": "4 ñ 3 + ñ 5 – 5 ñ 3 + 5 ñ 5 işleminin sonucu aşağıdakiler- 3 ò 18 + ó 128 – 3 ò 50 işleminin sonucu aşağıdakiler- den hangisidir? den hangisidir? A)6ñ5 – ñ3 B)3ñ3 + 5ñ5 A) –ñ2 B) 2ñ2 C) 10ñ2 D) 32ñ2 C)5ò10 D)6ñ5 + ñ3",
+    "options": [
+      "A) 6ñ5 – ñ3",
+      "B) 3ñ3 + 5ñ5",
+      "A) –ñ2",
+      "B) 2ñ2",
+      "C) 10ñ2",
+      "D) 32ñ2",
+      "C) 5ò10",
+      "D) 6ñ5 + ñ3"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p4_q4.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 4
+  },
+  {
+    "question_number": "48",
+    "raw_text": "48 2 l�tre su ş�şelere konulacaktır. 2 3 cm Ş�şe Hac�m (L�tre) A 8 B 2 48 cm C 72 Yukarıda kenar uzunlukları verilen dörtgenin Tablodak� ş�şeler�n her b�r�nden en az b�r tane kulla- çevre uzunluğu kaç cm’dir?",
+    "full_text": "48 2 l�tre su ş�şelere konulacaktır. 2 3 cm Ş�şe Hac�m (L�tre) A 8 B 2 48 cm C 72 Yukarıda kenar uzunlukları verilen dörtgenin Tablodak� ş�şeler�n her b�r�nden en az b�r tane kulla- çevre uzunluğu kaç cm’dir? nıldığına göre bu �ş �ç�n en az kaç ş�şe kullanılmıştır? A) 6 B) 8 C) 11 D) 14 A) 9 3 B) 10 3 C) 11 3 D) 11 3",
+    "options": [
+      "A) 6",
+      "B) 8",
+      "C) 11",
+      "D) 14",
+      "A) 9 3",
+      "B) 10 3",
+      "C) 11 3",
+      "D) 11 3"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p4_q48.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 4
+  },
+  {
+    "question_number": "4",
+    "raw_text": "4 + (−3 )2 − (−5 )2 Alanı 200 m2 olan dikdörtgen şeklindeki bir bahçenin 2 Yukarıda ver�len �şlem�n sonucu kaçtır?",
+    "full_text": "4 + (−3 )2 − (−5 )2 Alanı 200 m2 olan dikdörtgen şeklindeki bir bahçenin 2 Yukarıda ver�len �şlem�n sonucu kaçtır? kenar uzunluklarının oranı olduğuna göre bu bah- 5 A) 2 B) 0 C) 3 D) 10 çenin çevresi kaç metredir? A)7ò10 B)14ñ5 C)14ò10 D)28ñ5 A =2 2 −3 5 B=3 5 −4 2",
+    "options": [
+      "A) 2",
+      "B) 0",
+      "C) 3",
+      "D) 10 çenin çevresi kaç metredir?",
+      "A) 7ò10",
+      "B) 14ñ5",
+      "C) 14ò10"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p5_q4.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 5
+  },
+  {
+    "question_number": "75",
+    "raw_text": "75 cm A) 6 2 B) −2 2 Yukarıda ver�len d�kdörtgen�n çevres� kaç cm’d�r?",
+    "full_text": "75 cm A) 6 2 B) −2 2 Yukarıda ver�len d�kdörtgen�n çevres� kaç cm’d�r? A)8 3 B)9 3 C)16 3 D)18 3 C) −2 2 −6 5 D) 6 2 −6 5 A = 18− 2 A = 75 − 12 B= 48− 3 B= 27−2 3 C= 128− 98 olduğuna göre A−B kaçtır? olduğuna göre sıralamalardan hangisi doğrudur? A) 3 B)2 3 C)3 3 D)4 3 A)A <B<C B)A <C<B C)B< A <C D)C<A <B 18",
+    "options": [
+      "A) 8 3",
+      "B) 9 3",
+      "C) 16 3",
+      "D) 18 3",
+      "C) −2 2 −6 5",
+      "A) 3",
+      "B) 2 3",
+      "C) 3 3",
+      "D) 4 3"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p5_q75.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 5
+  },
+  {
+    "question_number": "2",
+    "raw_text": "2 8 Yukarıda ver�len �şlem�n sonucu kaçtır?",
+    "full_text": "2 8 Yukarıda ver�len �şlem�n sonucu kaçtır? Yukarıda ver�len �şlem�n sonucu kaçtır? A))2 B))4 C))6 D))8 A))1 B))2 C))3 D))4",
+    "options": [
+      "A) )2",
+      "B) )4",
+      "C) )6",
+      "D) )8",
+      "A) )1",
+      "B) )2",
+      "C) )3",
+      "D) )4"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p5_q2.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 5
+  },
+  {
+    "question_number": "363",
+    "raw_text": "363 −A = 192 olduğuna göre A değeri A poz�t�f b�r tam sayı olmak üzere kaçtır?",
+    "full_text": "363 −A = 192 olduğuna göre A değeri A poz�t�f b�r tam sayı olmak üzere kaçtır? A 3 − A = 6 48 eş�tl�ğ�n� sağlayan A kaçtır? A) 171 B) 57 C) 27 D) 19 A)) 27 B))14 C)) 13 D))10 x+ 72 + 50 =0 olduğuna göre x değeri kaçtır? A) 11 2 B) −11 2 C) 4 7 D) −4 7 ò ó ò",
+    "options": [
+      "A) 171",
+      "B) 57",
+      "C) 27",
+      "D) 19",
+      "A) ) 27",
+      "B) )14",
+      "C) ) 13",
+      "D) )10 x+ 72 + 50 =0 olduğuna göre x değeri kaçtır?",
+      "A) 11 2",
+      "B) −11 2",
+      "C) 4 7",
+      "D) −4 7 ò ó ò"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p6_q363.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 6
+  },
+  {
+    "question_number": "3",
+    "raw_text": "3 18 + 128 – 3 50 işleminin sonucu aşağıdakiler- den hangisidir?",
+    "full_text": "3 18 + 128 – 3 50 işleminin sonucu aşağıdakiler- den hangisidir? A) –ñ2 B) 2ñ2 C) 10ñ2 D) 32ñ2 ( )3 8− 2",
+    "options": [
+      "A) –ñ2",
+      "B) 2ñ2",
+      "C) 10ñ2",
+      "D) 32ñ2 ( )3 8− 2"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p6_q3.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 6
+  },
+  {
+    "question_number": "32",
+    "raw_text": "32 + 2 A)0 B)2 C) 2 2 D) 3 8 A) 2 B) 3 C) 5 D) 6 Yukarıda verilen ABCD dikdörtgeninin çevre uzunluğu kaç cm'dir?",
+    "full_text": "32 + 2 A)0 B)2 C) 2 2 D) 3 8 A) 2 B) 3 C) 5 D) 6 (cid:31) (cid:22)(cid:27) (cid:24)(cid:23) (cid:27)(cid:21)(cid:26)(cid:25) (cid:29) (cid:27) (cid:26)(cid:25) (cid:30) (cid:28) Yukarıda verilen ABCD dikdörtgeninin çevre uzunluğu kaç cm'dir? A) 4 3+2 2 B) 2 3+4 2 C) 2 3+2 2 D) 4 3+4 2",
+    "options": [
+      "A) 4 3+2 2",
+      "B) 2 3+4 2",
+      "C) 2 3+2 2",
+      "D) 4 3+4 2"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p6_q32.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 6
+  },
+  {
+    "question_number": "128",
+    "raw_text": "128 cm II. 5+ 5+ 5+ 5= 5+5+5+5= 20=2 5 III.5 2−(−4 2)− 2=5 2+4 2− 2=(5+4−1) 2=8 2 Yukarıda verilen düzgün beşgen ve karenin çevre uzunlukları birbirine eşittir. Düzgün IV.7 10−5 5=(7−5) 10−5=2 5 beşgenin bir kenar uzunluğu 128 cm olduğuna göre karenin bir kenar uzunluğu Yukarıda verilen işlemlerden hangileri kaç cm’dir?",
+    "full_text": "128 cm II. 5+ 5+ 5+ 5= 5+5+5+5= 20=2 5 III.5 2−(−4 2)− 2=5 2+4 2− 2=(5+4−1) 2=8 2 Yukarıda verilen düzgün beşgen ve karenin çevre uzunlukları birbirine eşittir. Düzgün IV.7 10−5 5=(7−5) 10−5=2 5 beşgenin bir kenar uzunluğu 128 cm olduğuna göre karenin bir kenar uzunluğu Yukarıda verilen işlemlerden hangileri kaç cm’dir? doğrudur? A) I ve III B) II ve III C) I ve II D) II ve IV A) 10 2 B) 12 2 C) 14 2 D) 16 2",
+    "options": [
+      "A) I ve III",
+      "B) II ve III",
+      "C) I ve II",
+      "D) II ve IV",
+      "A) 10 2",
+      "B) 12 2",
+      "C) 14 2",
+      "D) 16 2"
+    ],
+    "has_options": true,
+    "image_path": "data/extracted_images/question_karekoks_p7_q128.png",
+    "has_image": true,
+    "source_file": "karekoks.pdf",
+    "page": 7
+  }
+]

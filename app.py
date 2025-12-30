@@ -71,7 +71,14 @@ def load_generator():
 
 @st.cache_data
 def load_questions():
-    """Mevcut soruları yükle."""
+    """Mevcut soruları yükle (önce temiz soruları dene)."""
+    # Önce temiz soruları dene
+    clean_path = Path("models/baseline/clean_questions.json")
+    if clean_path.exists():
+        with clean_path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    
+    # Yoksa normal soruları yükle
     questions_path = Path("models/baseline/questions.json")
     if questions_path.exists():
         with questions_path.open("r", encoding="utf-8") as f:

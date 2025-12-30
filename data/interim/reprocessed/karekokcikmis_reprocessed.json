@@ -1,0 +1,41 @@
+[
+  {
+    "question_number": "4",
+    "raw_text": "4 5 363 777555 27 - S G S",
+    "full_text": "4 5 363 777555 27 - S G S A) 2 3 3 3 C) 4 3 D) 5 3 L – G A) 14 2",
+    "options": [
+      "A) 2 3 (cid:37)(cid:12) 3 3",
+      "C) 4 3",
+      "D) 5 3 L – G",
+      "A) 14 (cid:37)(cid:12)(cid:20)(cid:15)2"
+    ],
+    "has_options": true,
+    "source_file": "karekokcikmis.pdf",
+    "page": 2
+  },
+  {
+    "question_number": "5",
+    "raw_text": "5 m 6 m 7 m 8 m 9 m - ?",
+    "full_text": "5 m 6 m 7 m 8 m 9 m - ? A) 2 10 3 5 C) 4 3 D) 2 13 6",
+    "options": [
+      "A) 2 10(cid:3) (cid:37)(cid:12)(cid:3)3 5",
+      "C) 4 3",
+      "D) 2 13 6"
+    ],
+    "has_options": true,
+    "source_file": "karekokcikmis.pdf",
+    "page": 6
+  },
+  {
+    "question_number": "2",
+    "raw_text": "2",
+    "full_text": "2 A) 94 C) 79 68 11",
+    "options": [
+      "A) 94(cid:3) (cid:37)(cid:12)(cid:3) (cid:27)(cid:27)",
+      "C) 79(cid:3) (cid:39)(cid:12)(cid:3) 68 11"
+    ],
+    "has_options": true,
+    "source_file": "karekokcikmis.pdf",
+    "page": 11
+  }
+]

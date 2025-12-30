@@ -69,7 +69,7 @@ def find_question_boundaries(text: str) -> List[Tuple[int, int]]:
 
 
 def parse_single_question(text_lines: List[str], question_num: str) -> Optional[Dict]:
-    """Tek bir soruyu parse et (daha iyi algoritma)."""
+    """Tek bir soruyu parse et (daha iyi algoritma - soruları düzgün ayır)."""
     if not text_lines:
         return None
     
@@ -80,38 +80,57 @@ def parse_single_question(text_lines: List[str], question_num: str) -> Optional[
     if len(full_text) < 20 or len(full_text) > 2000:
         return None
     
-    # Soru metnini ve seçenekleri ayır
-    # Seçenekler genelde soru işaretinden sonra gelir
-    question_mark_idx = full_text.find('?')
-    
-    if question_mark_idx > 0:
-        question_text = full_text[:question_mark_idx + 1].strip()
-        options_text = full_text[question_mark_idx + 1:].strip()
+    # İLK SORU İŞARETİNE KADAR AL (birleşmiş soruları ayır)
+    first_q_mark = full_text.find('?')
+    if first_q_mark > 0:
+        # İlk soru işaretine kadar olan kısmı al
+        first_question = full_text[:first_q_mark + 1]
+        
+        # Bu kısmın sonrasındaki seçenekleri bul
+        after_first_q = full_text[first_q_mark + 1:]
+        
+        # İlk 4 seçeneği bul (sonraki soruya geçmeden)
+        options = []
+        option_pattern = re.compile(r'([A-D])[\.\)]\s*([^A-D]{0,50}?)(?=[A-D][\.\)]|$)', re.DOTALL)
+        option_matches = list(option_pattern.finditer(after_first_q))
+        
+        # Eğer 4'ten fazla seçenek varsa, muhtemelen birleşmiş sorular var
+        # Sadece ilk 4 seçeneği al
+        for match in option_matches[:4]:
+            letter = match.group(1)
+            content = match.group(2).strip()
+            if len(content) < 100:  # Çok uzun seçenekleri atla
+                options.append(f"{letter}) {content}")
+        
+        # En az 2 seçenek olmalı
+        if len(options) >= 2:
+            question_text = first_question.strip()
+            options_text = ' '.join(options)
+            full_clean_text = question_text + ' ' + options_text
+        else:
+            return None
     else:
         # Soru işareti yoksa, ilk seçeneğe kadar al
         first_option = re.search(r'[A-D][\.\)]', full_text)
         if first_option:
             question_text = full_text[:first_option.start()].strip()
             options_text = full_text[first_option.start():].strip()
+            
+            # Seçenekleri parse et
+            options = []
+            option_pattern = re.compile(r'([A-D])[\.\)]\s*([^A-D]+?)(?=[A-D][\.\)]|$)', re.DOTALL)
+            for match in option_pattern.finditer(options_text):
+                letter = match.group(1)
+                content = match.group(2).strip()
+                if len(content) < 100:
+                    options.append(f"{letter}) {content}")
+            
+            if len(options) < 2:
+                return None
+            
+            full_clean_text = question_text + ' ' + ' '.join(options[:4])
         else:
-            question_text = full_text
-            options_text = ""
-    
-    # Seçenekleri parse et
-    options = []
-    option_pattern = re.compile(r'([A-D])[\.\)]\s*([^A-D]+?)(?=[A-D][\.\)]|$)', re.DOTALL)
-    for match in option_pattern.finditer(options_text):
-        letter = match.group(1)
-        content = match.group(2).strip()
-        # Çok uzun seçenekleri atla (muhtemelen yanlış parse)
-        if len(content) < 100:
-            options.append(f"{letter}) {content}")
-    
-    # En az 2 seçenek olmalı
-    if len(options) < 2:
-        # Seçenekleri farklı şekilde bul
-        option_lines = re.findall(r'([A-D])[\.\)]\s*([^\n]+)', options_text)
-        options = [f"{letter}) {content.strip()}" for letter, content in option_lines[:4]]
+            return None
     
     # Soru geçerli mi kontrol et
     if len(question_text) < 15:
@@ -120,12 +139,14 @@ def parse_single_question(text_lines: List[str], question_num: str) -> Optional[
     # Encoding sorunlarını temizle
     question_text = re.sub(r'\(cid:\d+\)', '', question_text)
     question_text = re.sub(r'\s+', ' ', question_text).strip()
+    full_clean_text = re.sub(r'\(cid:\d+\)', '', full_clean_text)
+    full_clean_text = re.sub(r'\s+', ' ', full_clean_text).strip()
     
     return {
         "question_number": question_num,
         "raw_text": question_text,
-        "full_text": full_text,
-        "options": options,
+        "full_text": full_clean_text,
+        "options": options[:4],  # Maksimum 4 seçenek
         "has_options": len(options) >= 2
     }
 

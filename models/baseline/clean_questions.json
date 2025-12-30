@@ -1,0 +1,62 @@
+[
+  {
+    "question_number": 5,
+    "question_text": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır? A) 1 D) 5",
+    "raw_text": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır? A) 1 D) 5",
+    "full_text": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır? A) 1 D) 5",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  },
+  {
+    "question_number": 15,
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) N3 B) 2)3 o C) 3y3 o",
+    "raw_text": "Yukarıda verilen işlemin sonucu kaçtır? A) N3 B) 2)3 o C) 3y3 o",
+    "full_text": "Yukarıda verilen işlemin sonucu kaçtır? A) N3 B) 2)3 o C) 3y3 o",
+    "source_file": "karekoks.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  },
+  {
+    "question_number": 16,
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 8v3 B) 73 C) 63 D) 5v3 yay3 3 ) v3 v3",
+    "raw_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 8v3 B) 73 C) 63 D) 5v3 yay3 3 ) v3 v3",
+    "full_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 8v3 B) 73 C) 63 D) 5v3 yay3 3 ) v3 v3",
+    "source_file": "karekoks.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  },
+  {
+    "question_number": 25,
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2X7 B) 210 C) 37 510 D) 510 -37",
+    "raw_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2X7 B) 210 C) 37 510 D) 510 -37",
+    "full_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2X7 B) 210 C) 37 510 D) 510 -37",
+    "source_file": "karekoks.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  },
+  {
+    "question_number": 42,
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2 B) 4 C) 6 D) 8",
+    "raw_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2 B) 4 C) 6 D) 8",
+    "full_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 2 B) 4 C) 6 D) 8",
+    "source_file": "karekoks.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  },
+  {
+    "question_number": 57,
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 1 B) 2 c)3 D) 4",
+    "raw_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 1 B) 2 c)3 D) 4",
+    "full_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 1 B) 2 c)3 D) 4",
+    "source_file": "karekoks.pdf",
+    "source_type": "pdf_karekok",
+    "is_koklu": true,
+    "quality": "high"
+  }
+]

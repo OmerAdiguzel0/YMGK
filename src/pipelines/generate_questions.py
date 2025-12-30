@@ -59,7 +59,13 @@ def generate_questions_cli(
     # Seed questions yükle (eğer original veya hybrid yöntemi kullanılıyorsa)
     seed_questions_data = None
     if method in ["original", "hybrid"]:
-        questions_file = Path(questions_path) if questions_path else Path("models/baseline/questions.json")
+        # Önce temiz soruları dene
+        clean_questions_file = Path("models/baseline/clean_questions.json")
+        if clean_questions_file.exists():
+            questions_file = clean_questions_file
+            console.print("[green]✓ Temiz sorular kullanılıyor[/green]")
+        else:
+            questions_file = Path(questions_path) if questions_path else Path("models/baseline/questions.json")
         if questions_file.exists():
             if questions_file.suffix == ".json":
                 with questions_file.open("r", encoding="utf-8") as f:

@@ -1,16 +1,26 @@
 [
   {
-    "question_text": "Yukarıda 5 eş kareden oluşan şeklin alanı 88 br? A) v170 B) v190",
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) N3 B) 19)13 o C) 7y3 o",
     "generation_method": "original_variation",
     "source": "karekoks.pdf"
   },
   {
-    "question_text": "Bir havuzun etrafına her birinin alanı V0,132 m? A) 90 D) 89",
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 7 B) 6 C) 16 D) 15",
     "generation_method": "original_variation",
-    "source": "karekok_sorular.pdf"
+    "source": "karekoks.pdf"
   },
   {
-    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 10X7 B) 63 C) 50 172 D) 75 -28",
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 4 B) 18 c)12 D) 9",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 10v3 B) 93 C) 98 D) 4v3 yay3 2 ) v3 v3",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 9X7 B) 77 C) 15 192 D) 74 -43",
     "generation_method": "original_variation",
     "source": "karekoks.pdf"
   }
