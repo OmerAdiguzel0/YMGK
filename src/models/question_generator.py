@@ -211,25 +211,78 @@ class QuestionGenerator:
             return []
     
     def _clean_question_text(self, text: str) -> str:
-        """Soru metnini temizle ve düzelt."""
+        """Soru metnini temizle ve düzelt (daha agresif)."""
+        if not text:
+            return ""
+        
         # Encoding sorunlarını temizle
         text = re.sub(r'\(cid:\d+\)', '', text)
+        
+        # Anlamsız tek karakterli kelimeleri temizle (J I gibi)
+        text = re.sub(r'\b[A-Z]\s+[A-Z]\b', '', text)  # "J I" gibi
+        text = re.sub(r'\b[A-Z]\s+[A-Z]\s+', '', text)  # Tekrar eden tek harfler
+        
+        # Format hatalarını düzelt: "A))" -> "A)"
+        text = re.sub(r'([A-D])\)+', r'\1)', text)  # "A))" -> "A)"
+        text = re.sub(r'([A-D])\s*\)\s*\)', r'\1)', text)  # "A ) )" -> "A)"
+        
+        # Tekrar eden metinleri temizle
+        text = self._remove_repetitions(text)
+        
+        # Fazla boşlukları temizle
         text = re.sub(r'\s+', ' ', text).strip()
         
         # Çok uzun metinleri kısalt (muhtemelen birleşmiş sorular)
         if len(text) > 500:
-            # Soru işareti veya seçenek başlangıcına kadar al
-            question_end = max(
-                text.find('?'),
-                text.find('A)'),
-                text.find('B)'),
-                text.find('C)'),
-                text.find('D)')
-            )
-            if question_end > 100:  # En az 100 karakter olsun
-                text = text[:question_end + 1]
+            # İlk soru işaretine kadar al
+            first_q = text.find('?')
+            if first_q > 50:
+                # İlk soru işaretinden sonraki ilk 4 seçeneği al
+                after_q = text[first_q + 1:]
+                options = re.findall(r'([A-D])[\.\)]\s*([^A-D]{0,30}?)(?=[A-D][\.\)]|$)', after_q)[:4]
+                if len(options) >= 2:
+                    text = text[:first_q + 1] + ' ' + ' '.join([f"{l}) {c}" for l, c in options])
         
         return text
+    
+    def _remove_repetitions(self, text: str) -> str:
+        """Tekrar eden metinleri temizle."""
+        if not text or len(text) < 20:
+            return text
+        
+        # Kelimeleri ayır
+        words = text.split()
+        if len(words) < 5:
+            return text
+        
+        # 5+ kelimelik tekrarları bul ve temizle
+        cleaned_words = []
+        i = 0
+        while i < len(words):
+            # 5 kelimelik pencereyi kontrol et
+            if i + 5 <= len(words):
+                window = words[i:i+5]
+                window_text = ' '.join(window)
+                
+                # Bu pencerenin metinde tekrar edip etmediğini kontrol et
+                # Eğer aynı 5 kelime hemen sonra tekrar ediyorsa, atla
+                if i + 10 <= len(words):
+                    next_window = words[i+5:i+10]
+                    next_window_text = ' '.join(next_window)
+                    if window_text == next_window_text:
+                        # Tekrar bulundu, ilk pencereyi atla
+                        i += 5
+                        continue
+            
+            cleaned_words.append(words[i])
+            i += 1
+        
+        result = ' '.join(cleaned_words)
+        
+        # Fazla boşlukları temizle
+        result = re.sub(r'\s+', ' ', result).strip()
+        
+        return result
     
     def _extract_single_question(self, text: str) -> Optional[str]:
         """Metinden tek bir soru çıkar (birleşmiş soruları ayır) - daha agresif."""
@@ -297,8 +350,13 @@ class QuestionGenerator:
             for match in re.finditer(option_pattern, after_question):
                 letter = match.group(1)
                 content = match.group(2).strip()
-                # Çok uzun seçenekleri atla (muhtemelen yanlış parse)
-                if len(content) < 50:
+                
+                # Anlamsız karakterleri temizle
+                content = re.sub(r'[J-Z]\s+[A-Z]', '', content)  # "J I" gibi
+                content = re.sub(r'\s+', ' ', content).strip()
+                
+                # Çok uzun veya çok kısa seçenekleri atla
+                if 1 <= len(content) < 50:
                     options.append(f"{letter}) {content}")
             
             # İlk 4 seçeneği al

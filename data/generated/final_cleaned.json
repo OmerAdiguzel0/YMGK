@@ -1,0 +1,17 @@
+[
+  {
+    "question_text": "Kenar uzunlukları 6 cm ve 33 cm olan bir dikdörtgenin Yukarıdaki sayı doğrusunda A ile gösterilen sayı aşa- alanına eşit bir karenin bir kenar uzunluğu hangi iki tam ğıdakilerden hangisi olabilir? A) 88 B) 89 C) 45 D) 41",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Alanı 99 cm2 olan bir karenin çevre uzunluğu kaç 32 ve 100 sayıları arasında kaç tane tam sayı vardır? A) 9 B) 13 C) 3 D) 3",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Yukarıda verilen eşitliklere göre x – y işleminin sonucu kaçtır? A) 3 12 B) 12 9 C) 15 9 A) - 3+11 7+5 9 =7 4 IV. 4ñ3 + 5ñ3 – ñ3 = 8ñ3",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  }
+]
