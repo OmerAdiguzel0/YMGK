@@ -164,13 +164,23 @@ def main():
                         # Üretilen soruları göster
                         for i, q in enumerate(generated, 1):
                             with st.container():
-                                st.markdown(f"""
-                                <div class="question-card">
-                                    <h3>Soru {i}</h3>
-                                    <p>{q['question_text']}</p>
-                                    <small><strong>Yöntem:</strong> {q['generation_method']}</small>
-                                </div>
-                                """, unsafe_allow_html=True)
+                                st.markdown(f"### Soru {i}")
+                                
+                                # Düzenlenebilir metin alanı
+                                edited_text = st.text_area(
+                                    f"Soru {i} Metni",
+                                    value=q['question_text'],
+                                    height=100,
+                                    key=f"edit_{i}",
+                                    help="Soruyu buradan düzenleyebilirsiniz"
+                                )
+                                
+                                # Düzenlenmiş versiyonu güncelle
+                                if edited_text != q['question_text']:
+                                    q['question_text'] = edited_text
+                                    q['edited'] = True
+                                
+                                st.caption(f"**Yöntem:** {q.get('generation_method', 'unknown')}")
                                 
                                 # İndirme butonu
                                 st.download_button(

@@ -1,0 +1,17 @@
+[
+  {
+    "question_text": "Yukarıda 5 eş kareden oluşan şeklin alanı 88 br? A) v170 B) v190",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "Bir havuzun etrafına her birinin alanı V0,132 m? A) 90 D) 89",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 10X7 B) 63 C) 50 172 D) 75 -28",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  }
+]

@@ -419,14 +419,21 @@ class QuestionGenerator:
                 reasonable_length = 40 <= len(single_q) <= 250
                 not_too_many_numbers = 2 <= len(re.findall(r'\d+', single_q)) <= 10
                 
-                # Soru anlamlı başlamalı (yaygın soru başlangıçları)
-                meaningful_start = any(
-                    single_q.strip().startswith(starter) or 
-                    single_q.strip().lower().startswith(starter.lower())
-                    for starter in ['Aşağıdaki', 'Yukarıdaki', 'Yukarıda', 'Aşağıda', 
-                                   'Bir', 'İki', 'Üç', 'Kare', 'Sayı', 'Tam', 'Alanı', 
-                                   'Çevresi', 'Hangi', 'Kaç', 'Buna göre', 'Verilen']
-                ) or single_q.strip()[0].isupper()  # Büyük harfle başlamalı
+                # Soru anlamlı başlamalı (yaygın soru başlangıçları) - daha sıkı kontrol
+                q_stripped = single_q.strip()
+                meaningful_start = (
+                    any(q_stripped.startswith(starter) for starter in [
+                        'Aşağıdaki', 'Yukarıdaki', 'Yukarıda', 'Aşağıda', 
+                        'Bir', 'İki', 'Üç', 'Dört', 'Beş',
+                        'Kare', 'Dikdörtgen', 'Üçgen', 'Çember',
+                        'Sayı', 'Tam', 'Alanı', 'Çevresi', 'Kenar', 'Uzunluk',
+                        'Hangi', 'Kaç', 'Hangisi', 'Buna göre', 'Verilen',
+                        'Eğer', 'Düzgün', 'Ardışık'
+                    ]) or 
+                    (q_stripped[0].isupper() and len(q_stripped) > 0 and 
+                     not q_stripped[0].isdigit() and
+                     not q_stripped.startswith('sayı olmak'))  # "sayı olmak" ile başlayanları reddet
+                )
                 
                 # Anlamsız karakterler çok az olmalı
                 special_chars = len(re.findall(r'[^a-zA-Z0-9\s\.\,\?\(\)\[\]\-\+\=\√]', single_q))
