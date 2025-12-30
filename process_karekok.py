@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""karekokcikmis.pdf, karekok_sorular.pdf ve karekok.pdf dosyalarını işlemek için özel script."""
+"""karekokcikmis.pdf, karekok_sorular.pdf, karekok.pdf ve karekoks.pdf dosyalarını işlemek için özel script."""
 
 import json
 import sys
@@ -19,7 +19,8 @@ if __name__ == "__main__":
     pdf_files = [
         raw_dir / "karekokcikmis.pdf",
         raw_dir / "karekok_sorular.pdf",
-        raw_dir / "karekok.pdf"
+        raw_dir / "karekok.pdf",
+        raw_dir / "karekoks.pdf"
     ]
     
     all_questions = []

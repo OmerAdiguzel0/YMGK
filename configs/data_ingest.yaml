@@ -24,6 +24,13 @@ sources:
       priority: "high"
       use_ocr: true
       topic_filter: ["kareköklü ifadeler"]
+  - name: "karekoks"
+    type: "pdf"
+    pattern: "karekoks.pdf"
+    metadata:
+      priority: "high"
+      use_ocr: true
+      topic_filter: ["kareköklü ifadeler"]
   - name: "meb_resmi_kitapciklari"
     type: "pdf"
     pattern: "*.pdf"
