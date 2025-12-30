@@ -232,38 +232,93 @@ class QuestionGenerator:
         return text
     
     def _extract_single_question(self, text: str) -> Optional[str]:
-        """Metinden tek bir soru çıkar (birleşmiş soruları ayır)."""
-        # İlk soru işaretine kadar al (en güvenli yöntem)
+        """Metinden tek bir soru çıkar (birleşmiş soruları ayır) - daha agresif."""
+        # Önce temizle
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        # Soru başlangıçlarını bul (yaygın soru başlangıçları)
+        question_starters = [
+            r'Aşağıdaki',
+            r'Yukarıdaki',
+            r'Yukarıda',
+            r'Aşağıda',
+            r'Bir',
+            r'İki',
+            r'Üç',
+            r'Dört',
+            r'Beş',
+            r'Kare',
+            r'Dikdörtgen',
+            r'Üçgen',
+            r'Çember',
+            r'Sayı',
+            r'Tam',
+            r'Karekök',
+            r'√',
+            r'Alanı',
+            r'Çevresi',
+            r'Kenar',
+            r'Uzunluk',
+            r'Hangi',
+            r'Kaç',
+            r'Hangisi',
+            r'Buna göre',
+            r'Eğer',
+            r'Verilen'
+        ]
+        
+        # İlk soru başlangıcını bul
+        best_start = -1
+        for starter in question_starters:
+            pattern = r'\b' + starter + r'\b'
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match and (best_start == -1 or match.start() < best_start):
+                best_start = match.start()
+        
+        # Soru başlangıcından itibaren al
+        if best_start > 0:
+            text = text[best_start:]
+        
+        # İlk soru işaretine kadar al
         first_question_mark = text.find('?')
-        if first_question_mark > 0:
-            # Soru işaretinden sonraki seçenekleri de al
+        if first_question_mark > 20:  # En az 20 karakter olsun
             question_part = text[:first_question_mark + 1]
+            
+            # Soru kısmının geçerli olup olmadığını kontrol et
+            # Çok kısa veya anlamsız olmamalı
+            if len(question_part) < 20:
+                return None
             
             # Seçenekleri bul (soru işaretinden sonraki ilk 4 seçenek)
             after_question = text[first_question_mark + 1:]
-            options = re.findall(r'[A-D][\.\)]\s*[^A-D]*?(?=[A-D][\.\)]|$)', after_question)
+            # Seçenekleri daha iyi parse et
+            options = []
+            option_pattern = r'([A-D])[\.\)]\s*([^A-D]*?)(?=[A-D][\.\)]|$)'
+            for match in re.finditer(option_pattern, after_question):
+                letter = match.group(1)
+                content = match.group(2).strip()
+                # Çok uzun seçenekleri atla (muhtemelen yanlış parse)
+                if len(content) < 50:
+                    options.append(f"{letter}) {content}")
             
             # İlk 4 seçeneği al
             if len(options) >= 4:
                 options_text = ' '.join(options[:4])
-                return (question_part + ' ' + options_text).strip()
+                result = (question_part + ' ' + options_text).strip()
+                # Son kontrol: çok kısa veya çok uzun olmamalı
+                if 30 <= len(result) <= 300:
+                    return result
             elif len(options) > 0:
                 options_text = ' '.join(options)
-                return (question_part + ' ' + options_text).strip()
+                result = (question_part + ' ' + options_text).strip()
+                if 30 <= len(result) <= 300:
+                    return result
             else:
-                # Seçenek yoksa sadece soru kısmını döndür
-                return question_part.strip()
+                # Seçenek yoksa sadece soru kısmını döndür (ama yeterince uzunsa)
+                if 30 <= len(question_part) <= 200:
+                    return question_part.strip()
         
-        # Soru işareti yoksa, ilk seçeneklere kadar al
-        first_option = re.search(r'[A-D][\.\)]', text)
-        if first_option:
-            return text[:first_option.start()].strip()
-        
-        # Hiçbiri yoksa, ilk 200 karakteri al
-        if len(text) > 200:
-            return text[:200].strip()
-        
-        return text.strip()
+        return None
     
     def generate_from_original(self, original_text: str, num_variations: int = 1) -> List[str]:
         """Orijinal sorudan sadece sayıları değiştirerek yeni sorular üret (daha güvenli)."""
@@ -358,18 +413,34 @@ class QuestionGenerator:
                 if not single_q or len(single_q) < 30:
                     continue
                 
-                # Kalite kriterleri
+                # Kalite kriterleri (çok sıkı)
                 has_question_mark = '?' in single_q
                 has_options = bool(re.search(r'[A-D][\.\)]', single_q))
-                reasonable_length = 30 <= len(single_q) <= 300
-                not_too_many_numbers = len(re.findall(r'\d+', single_q)) <= 12
-                not_too_many_vars = len(re.findall(r'\b[a-z]\b', single_q, re.IGNORECASE)) <= 20
+                reasonable_length = 40 <= len(single_q) <= 250
+                not_too_many_numbers = 2 <= len(re.findall(r'\d+', single_q)) <= 10
                 
-                # Çok fazla anlamsız karakter yok
+                # Soru anlamlı başlamalı (yaygın soru başlangıçları)
+                meaningful_start = any(
+                    single_q.strip().startswith(starter) or 
+                    single_q.strip().lower().startswith(starter.lower())
+                    for starter in ['Aşağıdaki', 'Yukarıdaki', 'Yukarıda', 'Aşağıda', 
+                                   'Bir', 'İki', 'Üç', 'Kare', 'Sayı', 'Tam', 'Alanı', 
+                                   'Çevresi', 'Hangi', 'Kaç', 'Buna göre', 'Verilen']
+                ) or single_q.strip()[0].isupper()  # Büyük harfle başlamalı
+                
+                # Anlamsız karakterler çok az olmalı
                 special_chars = len(re.findall(r'[^a-zA-Z0-9\s\.\,\?\(\)\[\]\-\+\=\√]', single_q))
-                reasonable_special = special_chars <= 10
+                reasonable_special = special_chars <= 5
                 
-                if has_question_mark and has_options and reasonable_length and not_too_many_numbers and not_too_many_vars and reasonable_special:
+                # Tekrarlanan karakterler olmamalı (ör: "AAAA" veya "1111")
+                no_repeated_chars = not re.search(r'(.)\1{4,}', single_q)
+                
+                # Geçerli Türkçe karakterler içermeli
+                has_turkish_chars = bool(re.search(r'[a-zA-ZçğıöşüÇĞIİÖŞÜ]', single_q))
+                
+                if (has_question_mark and has_options and reasonable_length and 
+                    not_too_many_numbers and reasonable_special and 
+                    meaningful_start and no_repeated_chars and has_turkish_chars):
                     quality_questions.append({
                         **q,
                         "cleaned_text": single_q

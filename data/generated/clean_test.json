@@ -1,0 +1,27 @@
+[
+  {
+    "question_text": "sayı olmak üzere ayb > Va? A) 6v5 B) 14v15",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "question_text": "Yukarıda verilen işlemin sonucu kaçtır? A) 4v3 B) 62 C) 74 D) 8v3 yay3 14 ) v3 v3",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "sayı olmaküzereayb - ya? A) 60 B) 44 C) 27 D) 35",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "question_text": "sayı olmak üzere a/b ya? A) 10v2 B) 24v2",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "question_text": "sayı olmak üzere ayb — ya? A) 10y2 6) 15/23 C) 4/4 D) 8v2",
+    "generation_method": "original_variation",
+    "source": "karekok_sorular.pdf"
+  }
+]
