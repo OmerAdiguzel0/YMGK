@@ -1,0 +1,272 @@
+[
+  {
+    "template": "sayısına en yakın tam sayı kaçtır? <VAR>)<NUM> <VAR>)<NUM> <VAR>)<NUM> <VAR>)<NUM> Aşağıda verilen sayılardan hangisi <NUM> ile <NUM> arasındadır?",
+    "original": "sayısına en yakın tam sayı kaçtır? A)5 B)6 C)7 D)8 Aşağıda verilen sayılardan hangisi 8 ile 9 arasındadır?",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<NUM> gelen sayılar verilmiştir. Buna göre <VAR> noktasına karşılık gelen sayı aşağıda- Buna göre |AB| uzunluğu birim cinsinden hangi tam kilerden hangisi olabilir? sayıya daha yakındır? <VAR>) <NUM> <VAR>) <NUM> <VAR>) <NUM> <VAR>) <NUM> <VAR>))<NUM> <VAR>))<NUM> <VAR>))<NUM> <VAR>))<NUM>",
+    "original": "11 gelen sayılar verilmiştir. Buna göre A noktasına karşılık gelen sayı aşağıda- Buna göre |AB| uzunluğu birim cinsinden hangi tam kilerden hangisi olabilir? sayıya daha yakındır? A) 80 B) 89 C) 92 D)",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Yukarıda verilen sayılardan kaç tanesi tam kare        <NUM> <NUM> puan üzerinden değerlendirilen bir sınavda tam kare sayıdır?                                                        bir not aldığı bilinen bir öğrenci aşağıdaki puanlardan <VAR>) <NUM>         <VAR>)<NUM>         <VAR>)<NUM>         <VAR>)<NUM>                       hangisini almış olamaz? <VAR>) <NUM>          <VAR>) <NUM>          <VAR>) <NUM>          <VAR>) <NUM>",
+    "original": "Yukarıda verilen sayılardan kaç tanesi tam kare        8 100 puan üzerinden değerlendirilen bir sınavda tam kare sayıdır?                                                        bir not aldığı bilinen ",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Aşağıdaki sayılardan hangisi tam kare sayıdır?       <NUM>! Yüzler basamağındaki rakamı <NUM> olan üç basamaklı <VAR>) <NUM>         <VAR>) <NUM>          <VAR>) <NUM>           <VAR>) <NUM>           kaç tane tam kare sayı vardır? <VAR>) <NUM>           <VAR>)<NUM>             <VAR>)<NUM>              <VAR>)<NUM>",
+    "original": "Aşağıdaki sayılardan hangisi tam kare sayıdır?       9! Yüzler basamağındaki rakamı 3 olan üç basamaklı A) 18         B) 21          C) 36           D) 72           kaç tane tam kare sayı vardır? A) 3",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "|  İki basamaklı bir tam kare sayının rakamları toplamı <NUM>  Aynı ebattaki <NUM> tane kare fayansa en az kaç tane en fazla kaç olur?                                                 daha bu fayanslardan eklenirse kare şeklindeki bir <VAR>                                 ? <VAR>) <NUM>          <VAR>) <NUM>             <NUM>             <VAR>)<NUM>         zemin fayansla tamamen kaplanır? <VAR>) <NUM>       <VAR>) <NUM>         <VAR>) <NUM>         <VAR>) <NUM>",
+    "original": "|  İki basamaklı bir tam kare sayının rakamları toplamı 12  Aynı ebattaki 230 tane kare fayansa en az kaç tane en fazla kaç olur?                                                 daha bu fayanslardan e",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<NUM> ile bir <VAR> sayısının çarpımı tam kare sayı-",
+    "original": "240 ile bir A sayısının çarpımı tam kare sayı-",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Üç basamaklı tam kare sayıların kaç tanesinin bir-        dır. ler basamağında <NUM> rakamı bulunur?                             Buna göre <VAR>'nın alabileceği en küçük doğal <VAR>) <NUM>          <VAR>)<NUM>             <VAR><NUM>             <VAR>)<NUM>           sayı değeri kaçtır? <VAR>)<NUM>        <VAR>)<NUM>         <VAR>) <NUM>        <VAR>) <NUM>",
+    "original": "Üç basamaklı tam kare sayıların kaç tanesinin bir-        dır. ler basamağında 4 rakamı bulunur?                             Buna göre A'nın alabileceği en küçük doğal A) 4          B)5             g6",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Alanı <NUM> <VAR>? olan kare şeklindeki bir tarlanın çevresi kaç metredir?",
+    "original": "Alanı 64 m? olan kare şeklindeki bir tarlanın çevresi kaç metredir?",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Yukarıda verilen ABCD karesinin alanı <NUM>cm” ve EFKC karesinin alanı <NUM>cm” 'dir. Buna göre BEF üçgeninin alanı kaç cm” olur? <VAR>) <NUM>        <VAR>) <NUM>         <VAR>) <NUM>           <VAR>) <NUM> LL —<VAR><NUM> -—<NUM>",
+    "original": "Yukarıda verilen ABCD karesinin alanı 169cm” ve EFKC karesinin alanı 64cm” 'dir. Buna göre BEF üçgeninin alanı kaç cm” olur? A) 48        B) 40         C) 24           D) 20 LL —N49 -—7",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "ab iki basamaklı bir doğal sayıdır.                         <NUM> Aşağıdakilerden hangisi tam kare doğal sayıdır? abtba ifadesi bir tam kare sayı ise ab sayısı aşa-                                                   RE ğıdakilerden hangisi olamaz?                                  <VAR>) <VAR><NUM>       <VAR>) <NUM>          ©) <NUM>         <VAR>) <VAR><NUM> <VAR>)<NUM>           <VAR>)<NUM>           <VAR>)<NUM>           <VAR>)<NUM>",
+    "original": "ab iki basamaklı bir doğal sayıdır.                         35 Aşağıdakilerden hangisi tam kare doğal sayıdır? abtba ifadesi bir tam kare sayı ise ab sayısı aşa-                                       ",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<VAR><NUM> sayısına en yakın tam sayı aşağıdakilerden hangisidir?",
+    "original": "V132 sayısına en yakın tam sayı aşağıdakilerden hangisidir?",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<NUM>'den küçük üç basamaklı tam kare sayıların            <VAR>)<NUM>           <VAR>) <NUM>           <VAR>) <NUM>           <VAR>) <NUM> kaç tanesinde en az bir asal rakam bulunur? <VAR>)<NUM>               <VAR>)<NUM>               <VAR>)<NUM>               <VAR>)<NUM>",
+    "original": "400'den küçük üç basamaklı tam kare sayıların            A)11           B) 12           C) 13           D) 14 kaç tanesinde en az bir asal rakam bulunur? A)5               B)6               C)7       ",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<NUM><VAR> <VAR><NUM> sayısı hangi ardışık tam sayılar arasındadır?  <NUM> —<VAR><NUM> sayısından büyük en küçük tam sayı kaçtır? ©) <NUM>ile <NUM>           <VAR>) <NUM>ile <NUM> <VAR>            <VAR>     <VAR>         <VAR>",
+    "original": "4x J44 sayısı hangi ardışık tam sayılar arasındadır?  81 —y50 sayısından büyük en küçük tam sayı kaçtır? ©) 12ile 13           D) 13ile 14 K            L     M         N",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Sayı doğrusu üzerinde bulunan <VAR> ile <VAR> noktaları arası uzaklık aşağıdakilerden <VAR>                |               hangisi olur?",
+    "original": "Sayı doğrusu üzerinde bulunan A ile B noktaları arası uzaklık aşağıdakilerden J                |               hangisi olur?",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<VAR>   <VAR>                  <VAR>)Yis BV<NUM> CON» <VAR><NUM>",
+    "original": "N   N                  A)Yis BV20 CON» D32",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Eşit aralıklara bölünmüş sayı doğrusunda hangisi    <NUM>! Ceren hesap makinasında bir doğal sayı yazıp karekök <NUM>'un kareköküne karşılık gelen nokta olabilir”?             alma tuşuna basıyor. AJA             <VAR>)<VAR>             OC            <VAR>)<VAR>               Ekranda çıkan sayının onda birler basamağında <NUM> yazdığına göre, Ceren'nin karekökünü hesapladığı dığı sayı aşağıdakilerden hangisi olamaz? <VAR>) <NUM>            <VAR>) <NUM>            <VAR>) <NUM>            <VAR>) <NUM>",
+    "original": "Eşit aralıklara bölünmüş sayı doğrusunda hangisi    95! Ceren hesap makinasında bir doğal sayı yazıp karekök 30'un kareköküne karşılık gelen nokta olabilir”?             alma tuşuna basıyor. AJA      ",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "<NUM> sayısına en yakın tam kare sayı aşağı-       (<NUM> Tamkare olmayan kaç tane rakam vardır? dakilerden hangisidir?                                    <VAR>)<NUM>           <VAR>)<NUM>           <VAR>)<NUM>           <VAR>)<NUM> <VAR>) <NUM>    <VAR>) <NUM>     <VAR>) <NUM>     <VAR>) <NUM>",
+    "original": "137 sayısına en yakın tam kare sayı aşağı-       (96 Tamkare olmayan kaç tane rakam vardır? dakilerden hangisidir?                                    A)7           B)6           c)5           D)4 A) 1",
+    "source": "karekok.pdf"
+  },
+  {
+    "template": "Kartlar <VAR>) Yukarıdaki kartların ön yüzlerinde birer kareköklü ifade verilmiştir. Her bir kartın arka yüzünde ise ön yüzünde yazan kareköklü ifadenin ab biçimindeki farklı bir gösterimi yazmaktadır. Buna göre, aşağıdakilerden hangisi bu kartlardan herhangi birinin arka yüzünde yazılı olamaz? <VAR>) <NUM><VAR><NUM>              <VAR>) <NUM>             <VAR>)<NUM><VAR><NUM>              <VAR>)<NUM><VAR><NUM>",
+    "original": "Kartlar a) Yukarıdaki kartların ön yüzlerinde birer kareköklü ifade verilmiştir. Her bir kartın arka yüzünde ise ön yüzünde yazan kareköklü ifadenin ab biçimindeki farklı bir gösterimi yazmaktadır. Bu",
+    "source": "karekokcikmis.pdf"
+  },
+  {
+    "template": " Beyaz <VAR>                            <VAR> Şekilde görünen farklı renkteki bölgelerin alanları birbirine eşit ve sarı bölgenin çevresinin uzunluğu",
+    "original": " Beyaz A                            B Şekilde görünen farklı renkteki bölgelerin alanları birbirine eşit ve sarı bölgenin çevresinin uzunluğu",
+    "source": "karekokcikmis.pdf"
+  },
+  {
+    "template": "cm'dir. <VAR> noktasına uzaklığı santimetre cinsinden doğal sayı olacak biçimde, beyaz bölgenin kenarında şekildeki gibi bir <VAR> noktası işaretleniyor. Buna göre, <VAR> ve <VAR> noktaları arasındaki uzaklık kaç santimetredir? <VAR>) <NUM>                        <VAR>) <NUM>                          <VAR>)<NUM>                        <VAR>) <NUM>",
+    "original": "cm'dir. A noktasına uzaklığı santimetre cinsinden doğal sayı olacak biçimde, beyaz bölgenin kenarında şekildeki gibi bir B noktası işaretleniyor. Buna göre, A ve B noktaları arasındaki uzaklık kaç san",
+    "source": "karekokcikmis.pdf"
+  },
+  {
+    "template": "<VAR>      ; —                                                     <VAR>      ; ©                                                     |      ,      <VAR> Dikdörtgen şeklindeki bir kâğıt, yukarıdaki gibi kesilerek dikdörtgen şeklinde dört eş parça elde edilmiştir. Bu parçaların kısa kenarları ile uzun kenarları çakıştırılarak aşağıdaki gibi iki farklı şekil oluşturulmuştur. ! cm akl      setkktkikkkkkknkkekkkriekkekeki                       ---- Zemin Şekil |                           Şekil <NUM><VAR> Şekil Vin yüksekliği <VAR> <NUM> cm ve Şekil Il'nin çevresinin uzunluğu <NUM>/<NUM> cm'dir. Buna göre başlangıçta verilen dikdörtgen şeklindeki kâğıdın bir yüzünün alanı kaç santimet- rekaredir? <VAR>) <NUM>                    <VAR>) <NUM>                    <VAR>) <NUM>                      <VAR>) <NUM>",
+    "original": "i      ; —                                                     i      ; ©                                                     |      ,      ı Dikdörtgen şeklindeki bir kâğıt, yukarıdaki gibi kesilerek",
+    "source": "karekokcikmis.pdf"
+  },
+  {
+    "template": "Uğur Öğretmen öğrencilerine tam kare olmayan kareköklü sayıların değerinin en yakın olduğu doğal sayıyı buldurabil- mek için aşağıdaki etkinlik kağıdını dağıtmıştır. Aşağıda görüldüğü gibi <NUM> ve <NUM> gibi tam kare sayılarla kenarları tam sayı olan kareler elde edilebiliyor. Ancak <NUM>, <NUM>, <NUM> ve <NUM> gibi sayılarla kenarları tam sayı olan kareler elde edilemiyor. Tam kare olmayan sayılar ile en yakın oldukları tam kare sayılara karşılık gelen şekiller aynı renge boyanmıştır. Daha sonra Uğur Öğretmen öğrencilerine;",
+    "original": "Uğur Öğretmen öğrencilerine tam kare olmayan kareköklü sayıların değerinin en yakın olduğu doğal sayıyı buldurabil- mek için aşağıdaki etkinlik kağıdını dağıtmıştır. Aşağıda görüldüğü gibi 1 ve 4 gibi",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Topun üzerindeki sayı bir tam kare sayı değil ise kareköküne en yakın numaralı torbaya atılacaktır. Örneğin",
+    "original": "Topun üzerindeki sayı bir tam kare sayı değil ise kareköküne en yakın numaralı torbaya atılacaktır. Örneğin",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "bir tam kare sayı ve <VAR><NUM> — <NUM> olduğundan <NUM> numaralı top <NUM>. torbaya,",
+    "original": "bir tam kare sayı ve y4 — 2 olduğundan 4 numaralı top 2. torbaya,",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Ondalık gösterimi verilen bir sayı birler basamağına yuvarlanırken virgülden sonraki ilk rakama bakılır. Bu rakam <NUM> veya <NUM>'ten büyük ise birler basamağı <NUM> arttırılarak, <NUM>'ten küçük ise birler basamağı aynen bırakılarak virgülden sonraki kısım silinir. Örneğin <NUM>,<NUM> sayısının birler basamağına yuvarlanmış biçimi <NUM> <NUM>,<NUM> sayısının birler basamağına yuvarlanmış biçimi <NUM>'tir. Aşağıda klavyeden bir sayı girildikten sonra bir bilgisayar programının işlemler zinciri verilmiştir.",
+    "original": "Ondalık gösterimi verilen bir sayı birler basamağına yuvarlanırken virgülden sonraki ilk rakama bakılır. Bu rakam 5 veya 5'ten büyük ise birler basamağı 1 arttırılarak, 5'ten küçük ise birler basamağı",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden <NUM> sayısı girildiğinde ekranda yazan sayı kaçtır? <VAR>)<NUM>                                   <VAR>)<NUM>                                   Cc)<NUM>                                  <VAR>) <NUM>",
+    "original": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır? A)1                                   B)2                                   Cc)3                 ",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "— <NUM>                                              <NUM> —<.. <NUM>                   <VAR> Bu maçta oyuncular forma numaralarının karekökünün en yakın olduğu tam sayı kadar basket atıyorlar. Alp ile aynı sayıda basket atan başka bir oyuncu olmadığına göre Alp'in forma numarası kaçtır? <VAR>) <NUM>                                <VAR>) <NUM>                                Cc) <NUM>                               <VAR>) <NUM>",
+    "original": "— 29                                              20 —<.. 15                   D Bu maçta oyuncular forma numaralarının karekökünün en yakın olduğu tam sayı kadar basket atıyorlar. Alp ile aynı sayıda",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Doruk, ayrıtlarının uzunlukları <VAR><NUM> cm, <VAR><NUM> cm ve <NUM>,<NUM> cm olan prizma biçimindeki <NUM> taşı aralarında eşit mesafe olacak şekilde aşağıdaki gibi aynı hizada birbirine paralel biçimde dizmiştir. Doruk lk taşı ok yönünde devirdiğinde son taş hariç her taşın sırasıyla bir sonraki taşı kaydırmadan devirdiğini gözlemlemiştir. Ardışık taşlar arasındaki uzaklık bir tam sayıya eşit olduğuna göre <VAR> ile <VAR> noktaları arasındeki uzaklık en fazla kaç santimetre olur? <VAR>)<NUM>          <VAR>) <NUM>          <VAR>)<NUM>          <VAR>) <NUM>",
+    "original": "Doruk, ayrıtlarının uzunlukları V20 cm, V20 cm ve 0,2 cm olan prizma biçimindeki 15 taşı aralarında eşit mesafe olacak şekilde aşağıdaki gibi aynı hizada birbirine paralel biçimde dizmiştir. Doruk lk ",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "<VAR> veb birerdoğai sayı olmak üzere ayb — ya?<VAR> dir. Kerem oyuncak arabasının boyunu <NUM> santimetrelik bir cetvel ile aşeğıdeki gibi ölçüyor. Buna göre oyuncak arabanın boyu sentimetre cinsinden aşağıdakilerden hangisi olabilir? <VAR>) <NUM><VAR><NUM>                      <NUM>) <NUM>/<NUM>                     <VAR>) <NUM>/<NUM>                      <VAR>) <NUM><VAR><NUM>",
+    "original": "a veb birerdoğai sayı olmak üzere ayb — ya?b dir. Kerem oyuncak arabasının boyunu 10 santimetrelik bir cetvel ile aşeğıdeki gibi ölçüyor. Buna göre oyuncak arabanın boyu sentimetre cinsinden aşağıdaki",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "ave <VAR> birer doğal sayı olmak üzere ayb -ya?<VAR> dir. Alanı <NUM> <VAR>? olan kare şeklindeki bir bahçenin çevresine <NUM> sıra tel çekilecektir. Telin metre fiyatı satın alınacak miktara göre değişiklik göstermektedir. Telin metre fiyatları aşağıdaki tabloda gösterilmiştir. Tablo: Tel Miktarına Göre Metre Fiyatları ETE em | em een | en Bu iş için kullanılacak telin metresi kaç lira olur? <VAR>) <NUM>,<NUM>                         <VAR>) <NUM>                           <VAR>) <NUM>,<NUM>                         <VAR>) <NUM>",
+    "original": "ave b birer doğal sayı olmak üzere ayb -ya?b dir. Alanı 28 m? olan kare şeklindeki bir bahçenin çevresine 2 sıra tel çekilecektir. Telin metre fiyatı satın alınacak miktara göre değişiklik göstermekte",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Aşağıda verilen iç içe geçmiş yeşil ve turuncu çarklardan oluşan sistem ile bir oyun oynanıyor. Oyuncunun bu sistemi döndürdükten sonra kazandığı puan; çarklar durduğunda kırmızı üçgenin ucunun gösterdiği yeşil bölgedeki sayının karekökünden büyük en küçük doğal sayı ile mavi üçgenin ucunun gösterdiği turuncu bölgedeki sayının karekökünden küçük en büyük doğal sayı çarpılarak hesaplanır. Bu oyunu oynayan Doruk, sistemi döndürdükten sonra, çarklar durduğunda oluşan görüntü yukarıda verilmiştir. Buna göre Doruk kaç puan kazanır? <VAR>) <NUM>                                 <VAR>) <NUM>                                 Cc) <NUM>                                <VAR>) <NUM>",
+    "original": "Aşağıda verilen iç içe geçmiş yeşil ve turuncu çarklardan oluşan sistem ile bir oyun oynanıyor. Oyuncunun bu sistemi döndürdükten sonra kazandığı puan; çarklar durduğunda kırmızı üçgenin ucunun göster",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "<VAR> ve <VAR> birer doğal sayı olmak üzere avb - ya?.<VAR> dir. Bir yaya geçidinde trafik lambalarının altına, kırmızı ışığın kaç saniye sonra yanacağını gösteren bir tabela koyulmuştur. Kerem, bu yaya geçidine geldiğinde tabelada <NUM> yazdığını görmüş ve sabit hızla saniyede <NUM> <VAR> yol alarak kırmızı ışık yanmadan <NUM> saniye önce karşıya geçmiştir. Buna göre bu yaya geçidinin metre cinsinden uzunluğu aşağıdakilerden hangisi olabilir? <VAR>) <NUM>                             <VAR>) <NUM>.<NUM>                             <VAR>)<NUM>                            <VAR>) <NUM>.<NUM>",
+    "original": "a ve b birer doğal sayı olmak üzere avb - ya?.b dir. Bir yaya geçidinde trafik lambalarının altına, kırmızı ışığın kaç saniye sonra yanacağını gösteren bir tabela koyulmuştur. Kerem, bu yaya geçidine ",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "<VAR> ve <VAR> birer doğal sayı olmak üzere avb - va? -<VAR> dir. Aşağıda verilen taburenin yerden yüksekliği, oturma bölümünün ok yönünde bir tam tur dönüşünde <VAR><NUM> cm artmaktadır. «>     | Bu taburenin yerden yüksekliği en kısa hâlinde <NUM> cm, en uzun hâlinde ise <NUM> cm dir. Eylül bu tabureyi ok yönünde döndürerek en uzun haline getirmiştir. Buna göre Eylül tabureyi en çok kaç tam tur döndürmüştür? <VAR>)<NUM>                                  <VAR>)<NUM>                                   <VAR>)<NUM>                                  <VAR>)<NUM>",
+    "original": "a ve b birer doğal sayı olmak üzere avb - va? -b dir. Aşağıda verilen taburenin yerden yüksekliği, oturma bölümünün ok yönünde bir tam tur dönüşünde v3 cm artmaktadır. «>     | Bu taburenin yerden yük",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "cm? dir. Buna göre <NUM>. ve <NUM>. olan sporcular arasındaki boy farkı, <NUM>. ve <NUM>. olan sporcular arasındaki boy farkının kaç ka- tıdır? <VAR>)<NUM>                                  <VAR>) <NUM>,<NUM>                                Cc)<NUM>                                  <VAR>) <NUM>,<NUM>",
+    "original": "cm? dir. Buna göre 1. ve 3. olan sporcular arasındaki boy farkı, 1. ve 2. olan sporcular arasındaki boy farkının kaç ka- tıdır? A)2                                  B) 2,5                             ",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Aşağıdaki hedef tahtasındaki her daire dilimi kırmızı ve beyaz olmak üzere iki bölgeden oluşmaktadır. Bu hedef tahtasına yapılan atışlarda, » Beyaz bölgeye isabet eden atışlar <VAR> dilimdeki sayının kendisi kadar, »* Kırmızı bölgeye isabet eden atışlar <VAR> dilimdeki sayı tam kare ise sayının karekökü kadar, değil ise sayının ka- reköküne en yakın tam sayı kadar puan kazandırmaktadır. Hedef tahtasına <NUM> atış yapan bir atıcının atışları, hedef tahtasının aynı dilimindeki farklı renkte olan bölgelerine isabet etmiştir. Buna göre aşağıdakilerden hangisi bu atıcının aldığı puan olamaz? <VAR>)<NUM>                              <VAR>)<NUM>                               <VAR>)<NUM>                              <VAR>) <NUM>",
+    "original": "Aşağıdaki hedef tahtasındaki her daire dilimi kırmızı ve beyaz olmak üzere iki bölgeden oluşmaktadır. Bu hedef tahtasına yapılan atışlarda, » Beyaz bölgeye isabet eden atışlar o dilimdeki sayının kend",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Duatlon koşu etabı ile başlayıp bisiklet etabı ile devam eden ve tekrar koşu etabı ile biten bir spordur. Aynı anda yarışa başlayan sporcuların sırayla bu etapları tamamlaması gerekmektedir. Bu yarışı, etapları tamamlama sürelerinin topla- mı en az olan sporcu kazanmaktadır. '                                 Ny »                                                        < ,                                                     pa        <",
+    "original": "Duatlon koşu etabı ile başlayıp bisiklet etabı ile devam eden ve tekrar koşu etabı ile biten bir spordur. Aynı anda yarışa başlayan sporcuların sırayla bu etapları tamamlaması gerekmektedir. Bu yarışı",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "<NUM> dm <VAR> —ş—ş—şğ—şğ—ş—ğ—ğ—ğ—ğ—ğ—ğ—ğ << — li",
+    "original": "120 dm e —ş—ş—şğ—şğ—ş—ğ—ğ—ğ—ğ—ğ—ğ—ğ << — li",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "dm Bir marangoz yukarıdaki tahtaların kalınlıklarını değiştirmeden mavi tahtadan <NUM> dm, bordo tahtadan ise <NUM><VAR><NUM> dm uzunluğunda eş parçalar kesmiştir. Marangoz sadece kestiği bu parçaları kullanarak aşağıdaki eş kitaplıkları yapmıştır. Ni <VAR>                   Ni                  — <NUM><VAR><NUM> dm Buna göre marangozun yapmış olduğu kitaplık sayısı en çok kaçtır? <VAR>)<NUM>                                     <VAR>)<NUM>                                      <VAR>)<NUM>                                     <VAR>) <NUM>",
+    "original": "dm Bir marangoz yukarıdaki tahtaların kalınlıklarını değiştirmeden mavi tahtadan 215 dm, bordo tahtadan ise 3v5 dm uzunluğunda eş parçalar kesmiştir. Marangoz sadece kestiği bu parçaları kullanarak aş",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "<VAR> ve <VAR> birer doğal sayı olmak üzere ajb - Jalbdir. Kaan ve Doruk kuralları aşağıda verilen bir sayı oyunu oynuyorlar. * Oyuna başlayan oyuncu bir rakam söyler. * Diğer oyuncu arkadaşının söylediği sayının <VAR><NUM> katının en yakın olduğu doğal sayı değerini bulup söyler. » Sıra tekrar oyuna başlayan oyuncuya geldiğinde, <VAR> da arkadaşının söylediği sayının <VAR><NUM> katının en yakın olduğu doğal sayı değerini bulup söyler. * Oyun bu şekilde oyunculardan biri yanlış bir sayı söyleyene kadar devam eder. Kaan oyuna <NUM> rakamını söyleyerek başlamış ve Doruk üçüncü kez sayı söylediğinde oyun bitmiştir. Buna göre aşağıdakilerden hangisi Doruk'un söylediği sayılardan biri olamaz? <VAR>)<NUM>                   <VAR>)<NUM>                   <VAR>)<NUM>                  <VAR>) <NUM>",
+    "original": "a ve b birer doğal sayı olmak üzere ajb - Jalbdir. Kaan ve Doruk kuralları aşağıda verilen bir sayı oyunu oynuyorlar. * Oyuna başlayan oyuncu bir rakam söyler. * Diğer oyuncu arkadaşının söylediği say",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Aşağıda çevresi <NUM><VAR><NUM> cm olan dikdörtgen biçiminde bir karton verilmiştir. Bu karton <NUM> eş kareye bölünüp, bu karelerden bazıları kırmızıya boyanmıştır. Aşağıda yanlışlıkla bir kısmı yırtılan bu kartonun kalan bölümü verilmiştir. |                               |            <VAR> Lİ um bizi LAM | | Karton üzerinde boyanan tüm karelerin alanları toplamı <NUM> cm? olduğuna göre kartonun yırtılan kısmında kaç tane boyanmış kare vardır? <VAR>)<NUM>                               <VAR>)<NUM>                               <VAR>) <NUM>                               <VAR>) <NUM>",
+    "original": "Aşağıda çevresi 60v2 cm olan dikdörtgen biçiminde bir karton verilmiştir. Bu karton 50 eş kareye bölünüp, bu karelerden bazıları kırmızıya boyanmıştır. Aşağıda yanlışlıkla bir kısmı yırtılan bu karton",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Aşağıda kare biçimindeki yüzeylerinin alanları <NUM> dm? olan sarı renkli ve <NUM> dm? olan mavi renkli kartonlar verilmiştir. Bu kartonlar dikdörtgen biçimindeki bir levhanın etrafına aşağıdaki gibi dizilmiştir. en | sn san sn | <VAR> | sn | sa Bu levhanın eni ve boyu desimetre cinsinden birer tam sayı olduğuna göre çevresi kaç desimetredir? <VAR>) <NUM>                               <VAR>) <NUM>                               <VAR>)<NUM>                              <VAR>) <NUM>",
+    "original": "Aşağıda kare biçimindeki yüzeylerinin alanları 5 dm? olan sarı renkli ve 7 dm? olan mavi renkli kartonlar verilmiştir. Bu kartonlar dikdörtgen biçimindeki bir levhanın etrafına aşağıdaki gibi dizilmiş",
+    "source": "karekok_sorular.pdf"
+  },
+  {
+    "template": "Soruda Kareköklü Sayılarla Toplama ve Çıkarma İşlemi <NUM>.SINIF",
+    "original": "Soruda Kareköklü Sayılarla Toplama ve Çıkarma İşlemi 8.SINIF",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "A 20 D 30 C 40 D 50 A 60 C 70 C 80 B 90 A 100 C",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "D 11 C 21 A 31 D 41 A 51 B 61 A 71 A 81 C 91 B",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "A 15 C 25 A 35 B 45 C 55 D 65 C 75 C 85 A 95 B",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "A 16 C 26 D 36 C 46 D 56 D 66 B 76 B 86 D 96 A",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "B 18 C 28 B 38 D 48 D 58 A 68 A 78 D 88 B 98 A",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR> <NUM> <VAR>",
+    "original": "C 19 C 29 A 39 B 49 B 59 B 69 A 79 A 89 C 99 C",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "Yukarıda verilen işlemin sonucu kaçtır?               pa Yukarıda verilen işlemin sonucu kaçtır? YMWM<NUM> <VAR> BSB ON<NUM> DIN              <VAR>) <VAR><NUM>        <VAR>)<NUM>)<NUM> <VAR> <VAR>)<NUM><VAR><NUM> <VAR> <VAR>)AN<NUM>",
+    "original": "Yukarıda verilen işlemin sonucu kaçtır?               pa Yukarıda verilen işlemin sonucu kaçtır? YMWM3 o BSB ON3 DIN              A) N3        B)2)3 o C)3y3 o D)AN3",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "Yukarıda verilen işlemin sonucu kaçtır?                     Kaçtır? <VAR>)<NUM><VAR><NUM>     BNWN<NUM> EZ? DZ           <VAR>) <NUM><VAR><NUM>              <VAR>) <NUM> <VAR>) <NUM> <NUM>     <VAR>) <NUM> -<NUM>",
+    "original": "Yukarıda verilen işlemin sonucu kaçtır?                     Kaçtır? A)8v2     BNWN2 EZ? DZ           A) 2X7              B) 210 C) 37 510     D) 510 -37",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "Yukarıda verilen işlemin sonucu kaçtır?               <NUM>  Yukarıda verilen işlemin sonucu kaçtır? <VAR>)<NUM>       <VAR>)<NUM>       <VAR>)<NUM>       <VAR>)<NUM>        <VAR>)       <VAR>)<NUM>       <VAR>)<NUM>       <VAR>)<NUM>",
+    "original": "Yukarıda verilen işlemin sonucu kaçtır?               49  Yukarıda verilen işlemin sonucu kaçtır? A)2       B)4       C)6       D)8        A)       B)2       c)3       D)4",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "Yukarıda verilen işlemin sonucu kaçtır? <VAR>) <NUM>            <VAR>)<NUM>            <VAR>)<NUM>            <VAR>)<NUM>",
+    "original": "Yukarıda verilen işlemin sonucu kaçtır? A) 1            B)2            c)3            D)4",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<NUM><VAR><NUM>        <VAR>) <NUM><VAR><NUM>        MV BA ME DE",
+    "original": "4v3        D) 7v6        MV BA ME DE",
+    "source": "karekoks.pdf"
+  },
+  {
+    "template": "<VAR><NUM>-<NUM><VAR><NUM>— <VAR><NUM>—? İşleminin sonucu kaçtır? <NUM>/<NUM> <NUM> <NUM>",
+    "original": "V754-4y3— V27—? İşleminin sonucu kaçtır? 8/3 4327 212",
+    "source": "karekoks.pdf"
+  }
+]

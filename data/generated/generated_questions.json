@@ -1,0 +1,27 @@
+[
+  {
+    "question_text": "14'den küçük üç basamaklı tam kare sayıların            m)22           x) 100           n) 56           n) 6 kaç tanesinde en az bir asal rakam bulunur? m)32               m)83               n)39               c)3",
+    "generation_method": "template",
+    "source_template": "400'den küçük üç basamaklı tam kare sayıların            A)11           B) 12           C) 13       "
+  },
+  {
+    "question_text": "Üç basamaklı tam kare sayıların kaç tanesinin bir-        dır. ler basamağında 5 rakamı bulunur?                             Buna göre n'nın alabileceği en küçük doğal x) 7          m)3             y19             m)40           sayı değeri kaçtır? c)23        b)5         c) 76        y) 100",
+    "generation_method": "template",
+    "source_template": "Üç basamaklı tam kare sayıların kaç tanesinin bir-        dır. ler basamağında 4 rakamı bulunur?    "
+  },
+  {
+    "question_text": "cm'dir. b noktasına uzaklığı santimetre cinsinden doğal sayı olacak biçimde, beyaz bölgenin kenarında şekildeki gibi bir x noktası işaretleniyor. Buna göre, c ve m noktaları arasındaki uzaklık kaç santimetredir? n) 37                        c) 2                          m)18                        b) 34",
+    "generation_method": "template",
+    "source_template": "cm'dir. A noktasına uzaklığı santimetre cinsinden doğal sayı olacak biçimde, beyaz bölgenin kenarınd"
+  },
+  {
+    "question_text": "Aşağıda kare biçimindeki yüzeylerinin alanları 80 dm? olan sarı renkli ve 20 dm? olan mavi renkli kartonlar verilmiştir. Bu kartonlar dikdörtgen biçimindeki bir levhanın etrafına aşağıdaki gibi dizilmiştir. en | sn san sn | n | sn | sa Bu levhanın eni ve boyu desimetre cinsinden birer tam sayı olduğuna göre çevresi kaç desimetredir? m) 99                               m) 41                               a)71                              a) 63",
+    "generation_method": "template",
+    "source_template": "Aşağıda kare biçimindeki yüzeylerinin alanları 5 dm? olan sarı renkli ve 7 dm? olan mavi renkli kart"
+  },
+  {
+    "question_text": "93 sayısına en yakın tam kare sayı aşağı-       (15 Tamkare olmayan kaç tane rakam vardır? dakilerden hangisidir?                                    b)71           y)42           c)23           y)62 n) 29    x) 82     a) 41     y) 14",
+    "generation_method": "template",
+    "source_template": "137 sayısına en yakın tam kare sayı aşağı-       (96 Tamkare olmayan kaç tane rakam vardır? dakilerd"
+  }
+]
