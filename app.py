@@ -129,7 +129,12 @@ def main():
         
         with col1:
             num_questions = st.slider("Üretilecek Soru Sayısı", 1, 20, 5)
-            method = st.selectbox("Üretim Yöntemi", ["template", "hybrid"], index=0)
+            method = st.selectbox(
+                "Üretim Yöntemi", 
+                ["original", "template", "hybrid"],
+                index=0,
+                help="original: Orijinal sorulardan varyasyon (önerilen), template: Şablon tabanlı, hybrid: Her ikisi"
+            )
         
         with col2:
             st.write("")
@@ -141,10 +146,13 @@ def main():
                 try:
                     generator = load_generator()
                     
-                    if not generator.templates:
+                    questions = load_questions()
+                    
+                    if method in ["original", "hybrid"] and not questions:
+                        st.error("❌ Sorular yüklenemedi! Lütfen önce modeli eğitin.")
+                    elif method == "template" and not generator.templates:
                         st.error("❌ Şablonlar yüklenemedi! Lütfen önce modeli eğitin.")
                     else:
-                        questions = load_questions()
                         generated = generator.generate_questions(
                             num_questions=num_questions,
                             method=method,

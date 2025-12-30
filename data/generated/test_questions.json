@@ -1,0 +1,17 @@
+[
+  {
+    "question_text": "Alanı 53 m? olan kare şeklindeki bir tarlanın çevresi kaç metredir?",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Üç basamaklı tam kare sayıların kaç tanesinin bir- dır. ler basamağında 3 rakamı bulunur? Buna göre A'nın alabileceği en küçük doğal A) 13 B) 5 g6 D) 7 sayı değeri kaçtır? A) 5 B) 12 C) 19 D) 41",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "cm'dir. A noktasına uzaklığı santimetre cinsinden doğal sayı olacak biçimde, beyaz bölgenin kenarında şekildeki gibi bir B noktası işaretleniyor. Buna göre, A ve B noktaları arasındaki uzaklık kaç santimetredir? A) 16 B) 12 C) 2 D) 17",
+    "generation_method": "original_variation",
+    "source": "karekokcikmis.pdf"
+  }
+]

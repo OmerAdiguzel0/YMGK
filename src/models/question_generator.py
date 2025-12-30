@@ -46,67 +46,135 @@ class QuestionGenerator:
             print("[dim]Template-based generation kullanılacak[/dim]")
     
     def extract_templates(self, questions: List[Dict]) -> List[Dict]:
-        """Soru şablonlarını çıkar."""
+        """Soru şablonlarını çıkar (daha kaliteli)."""
         templates = []
         
         for q in questions:
             text = q.get("full_text", q.get("raw_text", ""))
-            if not text or len(text) < 20:
+            if not text or len(text) < 30:
                 continue
             
-            # Sayıları ve değişkenleri placeholder'a çevir
+            # Temizlik: Encoding sorunlarını temizle
+            text = re.sub(r'\(cid:\d+\)', '', text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            
+            # Çok kısa veya çok uzun soruları atla
+            if len(text) < 30 or len(text) > 2000:
+                continue
+            
+            # Şablon oluştur
             template = self._create_template(text)
             
             if template and len(template) > 30:
+                # Şablon kalitesi kontrolü
+                # Çok fazla placeholder varsa reddet
+                placeholder_ratio = (template.count('<NUM>') + template.count('<VAR>') + template.count('<SQRT>')) / len(template)
+                if placeholder_ratio > 0.3:  # %30'dan fazla placeholder varsa
+                    continue
+                
                 templates.append({
                     "template": template,
-                    "original": text[:200],
-                    "source": q.get("source_file", "unknown")
+                    "original": text[:300],
+                    "source": q.get("source_file", "unknown"),
+                    "quality_score": 1.0 - placeholder_ratio  # Daha az placeholder = daha yüksek kalite
                 })
+        
+        # Kaliteye göre sırala
+        templates.sort(key=lambda x: x.get("quality_score", 0), reverse=True)
         
         return templates
     
     def _create_template(self, text: str) -> str:
-        """Metinden şablon oluştur (sayıları ve değişkenleri değiştir)."""
-        # Sayıları placeholder'a çevir
-        template = re.sub(r'\d+', '<NUM>', text)
+        """Metinden şablon oluştur (sadece matematiksel değerleri değiştir)."""
+        template = text
         
-        # Karekök ifadelerini placeholder'a çevir
-        template = re.sub(r'√\d+', '<SQRT>', template)
-        template = re.sub(r'\\sqrt\{[^}]+\}', '<SQRT>', template)
+        # Önce karekök ifadelerini koru (sonra değiştirilecek)
+        sqrt_patterns = re.findall(r'√\d+|\\sqrt\{[^}]+\}', template)
+        for i, pattern in enumerate(sqrt_patterns):
+            template = template.replace(pattern, f'<SQRT_{i}>', 1)
         
-        # Değişken isimlerini placeholder'a çevir
-        template = re.sub(r'\b[a-z]\b', '<VAR>', template, flags=re.IGNORECASE)
+        # Sadece matematiksel değişkenleri değiştir (x, y, a, b, c, n, m)
+        # Kelimelerin içindeki harfleri değil, bağımsız değişkenleri
+        math_vars = ['x', 'y', 'a', 'b', 'c', 'n', 'm', 'k', 'p', 'q']
+        for var in math_vars:
+            # Sadece kelime sınırlarında ve matematiksel bağlamda olanları
+            pattern = r'\b' + var + r'\b(?![a-z])'  # Sonrasında küçük harf olmayan
+            template = re.sub(pattern, '<VAR>', template, flags=re.IGNORECASE)
         
-        # Çok fazla placeholder varsa temizle
-        if template.count('<NUM>') > 10 or template.count('<VAR>') > 10:
+        # Sayıları değiştir (ama çok fazla değil)
+        # Önce seçeneklerdeki sayıları koru
+        options_pattern = r'([A-D])[\.\)]\s*(\d+)'
+        options_matches = list(re.finditer(options_pattern, template))
+        option_numbers = {}
+        for i, match in enumerate(options_matches):
+            option_numbers[f'<OPT_NUM_{i}>'] = match.group(2)
+            template = template[:match.start(2)] + f'<OPT_NUM_{i}>' + template[match.end(2):]
+        
+        # Kalan sayıları değiştir (ama çok fazla değilse)
+        num_count = len(re.findall(r'\d+', template))
+        if num_count <= 15:  # Makul sayıda sayı varsa
+            template = re.sub(r'\b\d+\b', '<NUM>', template)
+        else:
+            # Çok fazla sayı varsa, sadece bazılarını değiştir
+            numbers = re.findall(r'\b\d+\b', template)
+            # İlk 10 sayıyı değiştir
+            for num in numbers[:10]:
+                template = template.replace(num, '<NUM>', 1)
+        
+        # Option placeholder'ları geri koy
+        for placeholder, num in option_numbers.items():
+            template = template.replace(placeholder, num)
+        
+        # SQRT placeholder'ları geri koy
+        for i, pattern in enumerate(sqrt_patterns):
+            template = template.replace(f'<SQRT_{i}>', '<SQRT>', 1)
+        
+        # Çok fazla placeholder varsa reddet
+        if template.count('<NUM>') > 12 or template.count('<VAR>') > 8:
             return None
         
         return template
     
     def generate_from_template(self, template: str, num_variations: int = 1) -> List[str]:
-        """Şablondan yeni sorular üret."""
+        """Şablondan yeni sorular üret (daha akıllı değiştirme)."""
         variations = []
         
         for _ in range(num_variations):
-            # Placeholder'ları rastgele değerlerle değiştir
             question = template
             
-            # <NUM> yerine rastgele sayılar
-            while '<NUM>' in question:
-                num = random.randint(1, 100)
-                question = question.replace('<NUM>', str(num), 1)
+            # <VAR> yerine rastgele değişken isimleri (tutarlılık için)
+            vars_list = ['x', 'y', 'a', 'b', 'c', 'n', 'm']
+            var_mapping = {}  # Aynı placeholder için aynı değişkeni kullan
+            var_count = 0
+            
+            while '<VAR>' in question:
+                if var_count not in var_mapping:
+                    var_mapping[var_count] = random.choice(vars_list)
+                var = var_mapping[var_count]
+                question = question.replace('<VAR>', var, 1)
+                var_count += 1
             
             # <SQRT> yerine rastgele karekök ifadeleri
+            sqrt_numbers = []
             while '<SQRT>' in question:
                 sqrt_num = random.randint(2, 50)
+                sqrt_numbers.append(sqrt_num)
                 question = question.replace('<SQRT>', f'√{sqrt_num}', 1)
             
-            # <VAR> yerine rastgele değişken isimleri
-            vars_list = ['x', 'y', 'a', 'b', 'c', 'n', 'm']
-            while '<VAR>' in question:
-                var = random.choice(vars_list)
-                question = question.replace('<VAR>', var, 1)
+            # <NUM> yerine rastgele sayılar (context'e göre)
+            num_count = 0
+            while '<NUM>' in question:
+                # İlk birkaç sayı için daha küçük aralık (genelde soru başında)
+                if num_count < 3:
+                    num = random.randint(1, 50)
+                else:
+                    num = random.randint(1, 100)
+                question = question.replace('<NUM>', str(num), 1)
+                num_count += 1
+            
+            # Temizlik: Çift boşlukları düzelt
+            question = re.sub(r'\s+', ' ', question)
+            question = question.strip()
             
             variations.append(question)
         
@@ -142,14 +210,104 @@ class QuestionGenerator:
             print(f"[red]Hata:[/red] LLM generation hatası: {e}")
             return []
     
+    def generate_from_original(self, original_text: str, num_variations: int = 1) -> List[str]:
+        """Orijinal sorudan sadece sayıları değiştirerek yeni sorular üret (daha güvenli)."""
+        variations = []
+        
+        for _ in range(num_variations):
+            question = original_text
+            
+            # Temizlik
+            question = re.sub(r'\(cid:\d+\)', '', question)
+            question = re.sub(r'\s+', ' ', question).strip()
+            
+            # Sadece sayıları değiştir (seçeneklerdeki sayıları koru)
+            # Seçenekleri koru: A) 12, B) 34 gibi
+            option_pattern = r'([A-D])[\.\)]\s*(\d+)'
+            
+            def replace_number(match):
+                letter = match.group(1)
+                num = int(match.group(2))
+                # Seçeneklerdeki sayıları biraz değiştir (ama mantıklı aralıkta)
+                if num < 10:
+                    new_num = random.randint(1, 20)
+                elif num < 50:
+                    new_num = random.randint(10, 60)
+                else:
+                    new_num = random.randint(40, 100)
+                return f"{letter}) {new_num}"
+            
+            # Seçeneklerdeki sayıları değiştir
+            question = re.sub(option_pattern, replace_number, question)
+            
+            # Diğer sayıları değiştir (ama daha dikkatli)
+            # Soru metnindeki sayıları bul ve değiştir
+            def replace_other_number(match):
+                num = int(match.group(0))
+                # Sayı aralığına göre değiştir
+                if num < 10:
+                    return str(random.randint(2, 15))
+                elif num < 50:
+                    return str(random.randint(10, 60))
+                elif num < 100:
+                    return str(random.randint(50, 120))
+                else:
+                    return str(random.randint(80, 200))
+            
+            # Seçenekler dışındaki sayıları değiştir
+            # Önce seçenekleri koru
+            options_text = ' '.join(re.findall(r'[A-D][\.\)]\s*\d+', question))
+            question_without_options = question
+            
+            # Seçenekleri geçici olarak değiştir
+            temp_question = re.sub(r'[A-D][\.\)]\s*\d+', '<OPT>', question_without_options)
+            # Sayıları değiştir
+            temp_question = re.sub(r'\b\d+\b', replace_other_number, temp_question)
+            # Seçenekleri geri koy
+            option_matches = re.findall(r'[A-D][\.\)]\s*\d+', question)
+            for opt in option_matches:
+                temp_question = temp_question.replace('<OPT>', opt, 1)
+            question = temp_question
+            
+            variations.append(question)
+        
+        return variations
+    
     def generate_questions(
         self,
         num_questions: int = 5,
-        method: str = "template",  # "template" veya "llm" veya "hybrid"
+        method: str = "template",  # "template", "original", "llm", "hybrid"
         seed_questions: Optional[List[Dict]] = None
     ) -> List[Dict]:
         """Yeni sorular üret."""
         generated = []
+        
+        # Orijinal sorulardan varyasyon üret (daha güvenli)
+        if method in ["original", "hybrid"] and seed_questions:
+            # Kaliteli soruları seç
+            quality_questions = [
+                q for q in seed_questions 
+                if q.get("full_text", q.get("raw_text", "")) and 
+                   len(q.get("full_text", q.get("raw_text", ""))) > 50 and
+                   len(q.get("full_text", q.get("raw_text", ""))) < 500
+            ]
+            
+            if quality_questions:
+                selected = random.sample(
+                    quality_questions,
+                    min(num_questions, len(quality_questions))
+                )
+                
+                for q in selected:
+                    text = q.get("full_text", q.get("raw_text", ""))
+                    variations = self.generate_from_original(text, num_variations=1)
+                    
+                    for var in variations:
+                        generated.append({
+                            "question_text": var,
+                            "generation_method": "original_variation",
+                            "source": q.get("source_file", "unknown")
+                        })
         
         if method in ["template", "hybrid"]:
             if not self.templates and seed_questions:
@@ -158,13 +316,14 @@ class QuestionGenerator:
                 print(f"[green]✓ {len(self.templates)} şablon bulundu[/green]")
             
             if self.templates:
-                # Şablonlardan soru üret
-                templates_to_use = random.sample(
+                # En kaliteli şablonları kullan
+                quality_templates = sorted(
                     self.templates,
-                    min(num_questions, len(self.templates))
-                )
+                    key=lambda x: x.get("quality_score", 0),
+                    reverse=True
+                )[:num_questions]
                 
-                for template_data in templates_to_use:
+                for template_data in quality_templates:
                     template = template_data["template"]
                     variations = self.generate_from_template(template, num_variations=1)
                     

@@ -55,10 +55,24 @@ def generate_questions_cli(
     
     # Soruları üret
     console.print(f"\n[bold]Soru üretiliyor... (Yöntem: {method})[/bold]")
+    
+    # Seed questions yükle (eğer original veya hybrid yöntemi kullanılıyorsa)
+    seed_questions_data = None
+    if method in ["original", "hybrid"]:
+        questions_file = Path(questions_path) if questions_path else Path("models/baseline/questions.json")
+        if questions_file.exists():
+            if questions_file.suffix == ".json":
+                with questions_file.open("r", encoding="utf-8") as f:
+                    seed_questions_data = json.load(f)
+            else:
+                df = pd.read_csv(questions_file)
+                seed_questions_data = df.to_dict("records")
+            console.print(f"[green]✓ {len(seed_questions_data)} soru yüklendi[/green]")
+    
     generated = generator.generate_questions(
         num_questions=num_questions,
         method=method,
-        seed_questions=None
+        seed_questions=seed_questions_data
     )
     
     # Sonuçları göster
@@ -95,9 +109,9 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--method",
-        choices=["template", "llm", "hybrid"],
-        default="template",
-        help="Üretim yöntemi"
+        choices=["template", "original", "llm", "hybrid"],
+        default="original",
+        help="Üretim yöntemi (original: orijinal sorulardan varyasyon, template: şablon tabanlı)"
     )
     parser.add_argument(
         "--model-dir",
