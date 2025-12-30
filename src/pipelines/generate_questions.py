@@ -59,10 +59,14 @@ def generate_questions_cli(
     # Seed questions yükle (eğer original veya hybrid yöntemi kullanılıyorsa)
     seed_questions_data = None
     if method in ["original", "hybrid"]:
-        # Önce temiz soruları dene
-        clean_questions_file = Path("models/baseline/clean_questions.json")
-        if clean_questions_file.exists():
-            questions_file = clean_questions_file
+        # Önce yeniden işlenmiş temiz soruları dene
+        reprocessed_clean = Path("models/baseline/reprocessed_clean_questions.json")
+        if reprocessed_clean.exists():
+            questions_file = reprocessed_clean
+            console.print("[green]✓ Yeniden işlenmiş temiz sorular kullanılıyor[/green]")
+        # Sonra normal temiz soruları dene
+        elif Path("models/baseline/clean_questions.json").exists():
+            questions_file = Path("models/baseline/clean_questions.json")
             console.print("[green]✓ Temiz sorular kullanılıyor[/green]")
         else:
             questions_file = Path(questions_path) if questions_path else Path("models/baseline/questions.json")
