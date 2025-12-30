@@ -1,0 +1,27 @@
+[
+  {
+    "question_text": "Yukarıda ver�len �şlem�n sonucu kaçtır? A) 19 10 B) 1 8 C) 1 9 D) 16 13",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "Yukarıda ver�len �şlem�n sonucu kaçtır? A) 19 6 B) 5 7 C) 7 13 D) 1 4",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  },
+  {
+    "question_text": "Yukarıdaki sayı doğrusunda işaretlenen noktalar için aşağıda verilenlerden han- –15 –3 –15 –15 5 11 8 5 11 gisi yanlıştır? A) − 39 B) − 10 C) 17 D) 16",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Buna göre A noktasına karşılık gelen sayı aşağıda- Buna göre |AB| uzunluğu birim cinsinden hangi tam kilerden hangisi olabilir? A) 97 B) 93 C) 74 D) 74",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Yukarıda ver�len d�kdörtgen�n çevres� kaç cm’d�r? A) 2 15 B) 12 8 C) 36 14 D) 21 9",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  }
+]

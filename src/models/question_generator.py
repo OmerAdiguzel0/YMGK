@@ -401,7 +401,8 @@ class QuestionGenerator:
             # Kaliteli soruları seç (daha sıkı kriterler)
             quality_questions = []
             for q in seed_questions:
-                text = q.get("full_text", q.get("raw_text", ""))
+                # Farklı formatları destekle
+                text = q.get("full_text") or q.get("raw_text") or q.get("question_text", "")
                 if not text:
                     continue
                 
@@ -411,16 +412,28 @@ class QuestionGenerator:
                 # Tek soru çıkar (birleşmiş soruları ayır)
                 single_q = self._extract_single_question(text)
                 if not single_q or len(single_q) < 30:
+                    # Eğer extract başarısız olduysa, orijinal metni kullan (zaten temizse)
+                    if len(text) >= 30 and '?' in text:
+                        single_q = text
+                    else:
+                        continue
+                
+                # Kalite kriterleri (daha esnek - yeniden işlenmiş sorular için)
+                has_question_mark = '?' in single_q
+                has_options = bool(re.search(r'[A-D][\.\)]', single_q)) or q.get('has_options', False)
+                reasonable_length = 30 <= len(single_q) <= 500  # Daha esnek
+                not_too_many_numbers = 1 <= len(re.findall(r'\d+', single_q)) <= 25  # Daha esnek
+                
+                # Soru anlamlı başlamalı (daha esnek)
+                q_stripped = single_q.strip()
+                if not q_stripped:
                     continue
                 
-                # Kalite kriterleri (çok sıkı)
-                has_question_mark = '?' in single_q
-                has_options = bool(re.search(r'[A-D][\.\)]', single_q))
-                reasonable_length = 40 <= len(single_q) <= 250
-                not_too_many_numbers = 2 <= len(re.findall(r'\d+', single_q)) <= 10
+                # Kötü başlangıçları reddet
+                bad_starts = ['sayı olmak', 'ave', 'yay', 'cm', 'br?', 'm?', '<OPT', '__OPT']
+                if any(q_stripped.lower().startswith(bs) for bs in bad_starts):
+                    continue
                 
-                # Soru anlamlı başlamalı (yaygın soru başlangıçları) - daha sıkı kontrol
-                q_stripped = single_q.strip()
                 meaningful_start = (
                     any(q_stripped.startswith(starter) for starter in [
                         'Aşağıdaki', 'Yukarıdaki', 'Yukarıda', 'Aşağıda', 
@@ -428,24 +441,31 @@ class QuestionGenerator:
                         'Kare', 'Dikdörtgen', 'Üçgen', 'Çember',
                         'Sayı', 'Tam', 'Alanı', 'Çevresi', 'Kenar', 'Uzunluk',
                         'Hangi', 'Kaç', 'Hangisi', 'Buna göre', 'Verilen',
-                        'Eğer', 'Düzgün', 'Ardışık'
+                        'Eğer', 'Düzgün', 'Ardışık', 'İşlemin', 'Sonucu', 'Adım'
                     ]) or 
-                    (q_stripped[0].isupper() and len(q_stripped) > 0 and 
-                     not q_stripped[0].isdigit() and
-                     not q_stripped.startswith('sayı olmak'))  # "sayı olmak" ile başlayanları reddet
+                    (q_stripped[0].isupper() if q_stripped else False)
                 )
                 
-                # Anlamsız karakterler çok az olmalı
+                if not meaningful_start:
+                    continue
+                
+                # Encoding sorunları kontrolü (daha esnek)
+                cid_count = single_q.count('(cid:')
+                if cid_count > 10:  # Çok fazla encoding sorunu varsa reddet
+                    continue
+                
+                # Anlamsız karakterler (daha esnek)
                 special_chars = len(re.findall(r'[^a-zA-Z0-9\s\.\,\?\(\)\[\]\-\+\=\√]', single_q))
-                reasonable_special = special_chars <= 5
+                reasonable_special = special_chars <= 20  # Daha esnek
                 
-                # Tekrarlanan karakterler olmamalı (ör: "AAAA" veya "1111")
-                no_repeated_chars = not re.search(r'(.)\1{4,}', single_q)
+                # Tekrarlanan karakterler (daha esnek)
+                no_repeated_chars = not re.search(r'(.)\1{8,}', single_q)  # 8'den fazla
                 
-                # Geçerli Türkçe karakterler içermeli
+                # Türkçe karakterler içermeli
                 has_turkish_chars = bool(re.search(r'[a-zA-ZçğıöşüÇĞIİÖŞÜ]', single_q))
                 
-                if (has_question_mark and has_options and reasonable_length and 
+                # Soru işareti opsiyonel (yeniden işlenmiş sorularda olmayabilir)
+                if (has_options and reasonable_length and 
                     not_too_many_numbers and reasonable_special and 
                     meaningful_start and no_repeated_chars and has_turkish_chars):
                     quality_questions.append({
