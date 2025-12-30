@@ -337,6 +337,9 @@ class QuestionGenerator:
         if first_question_mark > 20:  # En az 20 karakter olsun
             question_part = text[:first_question_mark + 1]
             
+            # Soru kısmını temizle - tekrar eden metinleri kaldır
+            question_part = self._remove_repetitions(question_part)
+            
             # Soru kısmının geçerli olup olmadığını kontrol et
             # Çok kısa veya anlamsız olmamalı
             if len(question_part) < 20:
@@ -344,6 +347,13 @@ class QuestionGenerator:
             
             # Seçenekleri bul (soru işaretinden sonraki ilk 4 seçenek)
             after_question = text[first_question_mark + 1:]
+            
+            # Önce birleşmiş soruları tespit et - eğer sonraki soru işareti varsa, oraya kadar al
+            next_q_mark = after_question.find('?')
+            if next_q_mark > 0 and next_q_mark < 100:
+                # Birleşmiş soru var, sadece ilk sorunun seçeneklerini al
+                after_question = after_question[:next_q_mark]
+            
             # Seçenekleri daha iyi parse et
             options = []
             option_pattern = r'([A-D])[\.\)]\s*([^A-D]*?)(?=[A-D][\.\)]|$)'
@@ -359,16 +369,15 @@ class QuestionGenerator:
                 if 1 <= len(content) < 50:
                     options.append(f"{letter}) {content}")
             
-            # İlk 4 seçeneği al
-            if len(options) >= 4:
+            # İlk 4 seçeneği al (birleşmiş soruları önlemek için)
+            if len(options) >= 2:
                 options_text = ' '.join(options[:4])
                 result = (question_part + ' ' + options_text).strip()
+                
+                # Son temizleme - tekrar eden metinleri kaldır
+                result = self._remove_repetitions(result)
+                
                 # Son kontrol: çok kısa veya çok uzun olmamalı
-                if 30 <= len(result) <= 300:
-                    return result
-            elif len(options) > 0:
-                options_text = ' '.join(options)
-                result = (question_part + ' ' + options_text).strip()
                 if 30 <= len(result) <= 300:
                     return result
             else:

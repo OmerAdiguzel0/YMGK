@@ -1,0 +1,17 @@
+[
+  {
+    "question_text": "Alanı 99 cm2 olan bir karenin çevre uzunluğu kaç 30 ve 194 sayıları arasında kaç tane tam sayı vardır?",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Kenar uzunlukları 5 cm ve 47 cm olan bir dikdörtgenin Yukarıdaki sayı doğrusunda A ile gösterilen sayı aşa- alanına eşit bir karenin bir kenar uzunluğu hangi iki tam ğıdakilerden hangisi olabilir? A) 49 B) 83 C) 66 D) 92",
+    "generation_method": "original_variation",
+    "source": "karekok.pdf"
+  },
+  {
+    "question_text": "Yukarıda ver�len �şlem�n sonucu kaçtır? A) 14 B) 2 11 C) 13 4 D) 2 8 aşağıdakilerden hangisidir",
+    "generation_method": "original_variation",
+    "source": "karekoks.pdf"
+  }
+]
