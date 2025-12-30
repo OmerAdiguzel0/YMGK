@@ -10,6 +10,13 @@ sources:
       priority: "high"
       use_ocr: true
       topic_filter: ["kareköklü ifadeler"]
+  - name: "karekok_sorular"
+    type: "pdf"
+    pattern: "karekok_sorular.pdf"
+    metadata:
+      priority: "high"
+      use_ocr: true
+      topic_filter: ["kareköklü ifadeler"]
   - name: "meb_resmi_kitapciklari"
     type: "pdf"
     pattern: "*.pdf"

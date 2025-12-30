@@ -1,0 +1,955 @@
+[
+  {
+    "question_number": "1",
+    "raw_text": "Uğur Öğretmen öğrencilerine tam kare olmayan kareköklü sayıların değerinin en yakın olduğu doğal sayıyı buldurabil- mek için aşağıdaki etkinlik kağıdını dağıtmıştır. Aşağıda görüldüğü gibi 1 ve 4 gibi tam kare sayılarla kenarları tam sayı olan kareler elde edilebiliyor. Ancak 2, 3, 5 ve 6 gibi sayılarla kenarları tam sayı olan kareler elde edilemiyor. Tam kare olmayan sayılar ile en yakın oldukları tam kare sayılara karşılık gelen şekiller aynı renge boyanmıştır. Daha sonra Uğur Öğretmen öğrencilerine;",
+    "options": [],
+    "full_text": "Uğur Öğretmen öğrencilerine tam kare olmayan kareköklü sayıların değerinin en yakın olduğu doğal sayıyı buldurabil- mek için aşağıdaki etkinlik kağıdını dağıtmıştır. Aşağıda görüldüğü gibi 1 ve 4 gibi tam kare sayılarla kenarları tam sayı olan kareler elde edilebiliyor. Ancak 2, 3, 5 ve 6 gibi sayılarla kenarları tam sayı olan kareler elde edilemiyor. Tam kare olmayan sayılar ile en yakın oldukları tam kare sayılara karşılık gelen şekiller aynı renge boyanmıştır. Daha sonra Uğur Öğretmen öğrencilerine;",
+    "page": 1,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "Etabı Tamamlama Süresi (dakika)                   &                      &                      &                      Yİ",
+    "full_text_ocr": "Etabı Tamamlama Süresi (dakika)                   &                      &                      &                      Yİ",
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "2",
+    "raw_text": "birim kare ile oluşturulan şeklin alanının 1 birim kare ile oluşturulan şeklin alanına daha yakın olduğundan y2 nin değerinin 1 — 1 e daha yakın olduğunu, 3, 5, 6 birim kare ile oluşturulan şekillerin alanının 4 birim kare ile oluşturulan şeklin alanına daha yakın olduğundan V3,/5 ve y6 nın değerlerinin /4 —- 2 ye daha yakın olduğunu söylemiştir. Son olarak öğrencilerine birim karelere bölünmüş bir kâğıt dağıtan Uğur Öğretmen öğrencilerinden bu kağıda karekö- künün değerinin en yakın olduğu doğal sayı 3 olan tüm tam kare olmayan sayıları ifade eden birim karelerden oluşan birer şekil çizmelerini istemiştir. Buna göre öğrencilerin bu kağıda kaç farklı şekil çizmesi gerekir? pa           pa        « O 09 60 1'den 16'ya kadar numaralandırılmış 16 top aşağıdaki kurallara göre 1'den 4'e kadar numaralanmış 4 torbaya atılacaktır. * Topun üzerindeki sayı bir tam kare sayı ise kareköküne eşit numaralı",
+    "options": [
+      "A) 3                                  B)5                                  C)7                                  D)9"
+    ],
+    "full_text": "birim kare ile oluşturulan şeklin alanının 1 birim kare ile oluşturulan şeklin alanına daha yakın olduğundan y2 nin değerinin 1 — 1 e daha yakın olduğunu, 3, 5, 6 birim kare ile oluşturulan şekillerin alanının 4 birim kare ile oluşturulan şeklin alanına daha yakın olduğundan V3,/5 ve y6 nın değerlerinin /4 —- 2 ye daha yakın olduğunu söylemiştir. Son olarak öğrencilerine birim karelere bölünmüş bir kâğıt dağıtan Uğur Öğretmen öğrencilerinden bu kağıda karekö- künün değerinin en yakın olduğu doğal sayı 3 olan tüm tam kare olmayan sayıları ifade eden birim karelerden oluşan birer şekil çizmelerini istemiştir. Buna göre öğrencilerin bu kağıda kaç farklı şekil çizmesi gerekir? A)3                                  B)5                                  C)7                                  D)9 pa           pa        « O 09 60 1'den 16'ya kadar numaralandırılmış 16 top aşağıdaki kurallara göre 1'den 4'e kadar numaralanmış 4 torbaya atılacaktır. * Topun üzerindeki sayı bir tam kare sayı ise kareköküne eşit numaralı",
+    "page": 1,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "Etabı Tamamlama Süresi (dakika)                MN)                  yağ                  VAS                  vY63",
+    "full_text_ocr": "Etabı Tamamlama Süresi (dakika)                MN)                  yağ                  VAS                  vY63",
+    "options_ocr": [
+      "A) 4                                  B) 5                                  C)6                                  D)7"
+    ],
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "9",
+    "raw_text": "Topun üzerindeki sayı bir tam kare sayı değil ise kareköküne en yakın numaralı torbaya atılacaktır. Örneğin",
+    "options": [],
+    "full_text": "Topun üzerindeki sayı bir tam kare sayı değil ise kareköküne en yakın numaralı torbaya atılacaktır. Örneğin",
+    "page": 1,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "a,b,c, dbirerdoğal sayı olmak üzere va”b-ayb ve avb-cş'd-acvbddir Kare şeklindeki bir karton aşağıdaki gibi 4 parçaya ayrılıyor. Tam kare olmayan A ve B doğal sayıları bulundukları karenin, tam kare olan C doğal sayısı ise bulundukları dikdörtgen- lerin santimetrekare cinsinden alanlarını ifade etmektedir. Buna göre parçalara ayrılan kartonun alanı en az kaç santimetrekaredir?",
+    "full_text_ocr": "a,b,c, dbirerdoğal sayı olmak üzere va”b-ayb ve avb-cş'd-acvbddir Kare şeklindeki bir karton aşağıdaki gibi 4 parçaya ayrılıyor. Tam kare olmayan A ve B doğal sayıları bulundukları karenin, tam kare olan C doğal sayısı ise bulundukları dikdörtgen- lerin santimetrekare cinsinden alanlarını ifade etmektedir. Buna göre parçalara ayrılan kartonun alanı en az kaç santimetrekaredir? A) 14                                B) 18                                C)24                               D) 27",
+    "options_ocr": [
+      "A) 14                                B) 18                                C)24                               D) 27"
+    ],
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "düşük"
+  },
+  {
+    "question_number": "4",
+    "raw_text": "bir tam kare sayı ve y4 — 2 olduğundan 4 numaralı top 2. torbaya,",
+    "options": [],
+    "full_text": "bir tam kare sayı ve y4 — 2 olduğundan 4 numaralı top 2. torbaya,",
+    "page": 1,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "Bir şifreleme yönteminde alfabemizdeki 29 harf bulundukları sıranın karekökü bir tam sayı ise o tam sayı olarak, değil ise karekökünün en yakın olduğu tam sayı değeri olarak kodlanmaktadır. alelelelolelrlelalalılılılmlulufnlolelr/rfele|rjulolvjvlz jalalalsfelrlafelsofm|azlas|selasfse|arfas|so|z0)20 |z2|23| 24) 26J20|z(ze| zn) Bir kelimedeki harfler sırasıyla yukarıdaki yönteme göre kodlanıp, bulunan kodlar yine aynı sırayla yan yana yazıldı- ğında kelime kodlanmış olur. Örneğin A, 1. harf ve v1 <1 olduğundan 1 diye, L, 15. harf ve V15'in en yakın olduğu tam sayı değeri 4 olduğundan 4 diye, İ, 12. harf ve V12'nin en yakın olduğu tam sayı değeri 3 olduğundan 3 diye kodlandığından ALİ ismi 143 olarak kodlanır. Bu şifreleme yöntemine göre AHMET isminin kodu nedir?",
+    "full_text_ocr": "Bir şifreleme yönteminde alfabemizdeki 29 harf bulundukları sıranın karekökü bir tam sayı ise o tam sayı olarak, değil ise karekökünün en yakın olduğu tam sayı değeri olarak kodlanmaktadır. alelelelolelrlelalalılılılmlulufnlolelr/rfele|rjulolvjvlz jalalalsfelrlafelsofm|azlas|selasfse|arfas|so|z0)20 |z2|23| 24) 26J20|z(ze| zn) Bir kelimedeki harfler sırasıyla yukarıdaki yönteme göre kodlanıp, bulunan kodlar yine aynı sırayla yan yana yazıldı- ğında kelime kodlanmış olur. Örneğin A, 1. harf ve v1 <1 olduğundan 1 diye, L, 15. harf ve V15'in en yakın olduğu tam sayı değeri 4 olduğundan 4 diye, İ, 12. harf ve V12'nin en yakın olduğu tam sayı değeri 3 olduğundan 3 diye kodlandığından ALİ ismi 143 olarak kodlanır. Bu şifreleme yöntemine göre AHMET isminin kodu nedir? A) 12435                       B) 13425                       C) 13452                      D) 14235",
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "options_ocr": [
+      "A) 12435                       B) 13425                       C) 13452                      D) 14235"
+    ],
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "düşük"
+  },
+  {
+    "question_number": "3",
+    "raw_text": "Ondalık gösterimi verilen bir sayı birler basamağına yuvarlanırken virgülden sonraki ilk rakama bakılır. Bu rakam 5 veya 5'ten büyük ise birler basamağı 1 arttırılarak, 5'ten küçük ise birler basamağı aynen bırakılarak virgülden sonraki kısım silinir. Örneğin 12,54 sayısının birler basamağına yuvarlanmış biçimi 13 105,18 sayısının birler basamağına yuvarlanmış biçimi 109'tir. Aşağıda klavyeden bir sayı girildikten sonra bir bilgisayar programının işlemler zinciri verilmiştir.",
+    "options": [],
+    "full_text": "Ondalık gösterimi verilen bir sayı birler basamağına yuvarlanırken virgülden sonraki ilk rakama bakılır. Bu rakam 5 veya 5'ten büyük ise birler basamağı 1 arttırılarak, 5'ten küçük ise birler basamağı aynen bırakılarak virgülden sonraki kısım silinir. Örneğin 12,54 sayısının birler basamağına yuvarlanmış biçimi 13 105,18 sayısının birler basamağına yuvarlanmış biçimi 109'tir. Aşağıda klavyeden bir sayı girildikten sonra bir bilgisayar programının işlemler zinciri verilmiştir.",
+    "page": 2,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "Etabı Tamamlama Süresi (dakika)                3                  yY4$                  vYa5                  vV28 Buna göre bu yarışı hangi sporcu kazanmıştır?",
+    "full_text_ocr": "Etabı Tamamlama Süresi (dakika)                3                  yY4$                  vYa5                  vV28 Buna göre bu yarışı hangi sporcu kazanmıştır? A) Harun                            B) Erdem                            C) Mustafa                         D) Bülent",
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "options_ocr": [
+      "A) Harun                            B) Erdem                            C) Mustafa                         D) Bülent"
+    ],
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "5",
+    "raw_text": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır?",
+    "options": [
+      "A) 1                                   B)2                                   Cc)3                                  D) 5"
+    ],
+    "full_text": "Adım: Sonucu ekrana yaz. Bu programa göre klavyeden 226 sayısı girildiğinde ekranda yazan sayı kaçtır? A)1                                   B)2                                   Cc)3                                  D) 5",
+    "page": 2,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "Aşağıda bir basketbol maçındaki oyuncuların forma numaraları verilmiştir. |                                                                                                                                | X                                     IN          Ni |               53 | M                                     A         K          10             8 —    8      1 © se      Ni",
+    "full_text_ocr": "Aşağıda bir basketbol maçındaki oyuncuların forma numaraları verilmiştir. |                                                                                                                                | X                                     IN          Ni |               53 | M                                     A         K          10             8 —    8      1 © se      Ni",
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "24",
+    "raw_text": "— 29                                              20 —<.. 15                   D Bu maçta oyuncular forma numaralarının karekökünün en yakın olduğu tam sayı kadar basket atıyorlar. Alp ile aynı sayıda basket atan başka bir oyuncu olmadığına göre Alp'in forma numarası kaçtır?",
+    "options": [
+      "A) 12                                B) 20                                Cc) 40                               D) 53"
+    ],
+    "full_text": "— 29                                              20 —<.. 15                   D Bu maçta oyuncular forma numaralarının karekökünün en yakın olduğu tam sayı kadar basket atıyorlar. Alp ile aynı sayıda basket atan başka bir oyuncu olmadığına göre Alp'in forma numarası kaçtır? A) 12                                B) 20                                Cc) 40                               D) 53",
+    "page": 3,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "6",
+    "raw_text": "Doruk, ayrıtlarının uzunlukları V20 cm, V20 cm ve 0,2 cm olan prizma biçimindeki 15 taşı aralarında eşit mesafe olacak şekilde aşağıdaki gibi aynı hizada birbirine paralel biçimde dizmiştir. Doruk lk taşı ok yönünde devirdiğinde son taş hariç her taşın sırasıyla bir sonraki taşı kaydırmadan devirdiğini gözlemlemiştir. Ardışık taşlar arasındaki uzaklık bir tam sayıya eşit olduğuna göre A ile B noktaları arasındeki uzaklık en fazla kaç santimetre olur?",
+    "options": [
+      "A) 57          B) 59          C)61          D) 63"
+    ],
+    "full_text": "Doruk, ayrıtlarının uzunlukları V20 cm, V20 cm ve 0,2 cm olan prizma biçimindeki 15 taşı aralarında eşit mesafe olacak şekilde aşağıdaki gibi aynı hizada birbirine paralel biçimde dizmiştir. Doruk lk taşı ok yönünde devirdiğinde son taş hariç her taşın sırasıyla bir sonraki taşı kaydırmadan devirdiğini gözlemlemiştir. Ardışık taşlar arasındaki uzaklık bir tam sayıya eşit olduğuna göre A ile B noktaları arasındeki uzaklık en fazla kaç santimetre olur? A)57          B) 59          C)61          D) 63",
+    "page": 4,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "7",
+    "raw_text": "a veb birerdoğai sayı olmak üzere ayb — ya?b dir. Kerem oyuncak arabasının boyunu 10 santimetrelik bir cetvel ile aşeğıdeki gibi ölçüyor. Buna göre oyuncak arabanın boyu sentimetre cinsinden aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "A) 4y2                      8) 2/10                     C) 5/3                      D) 7v2"
+    ],
+    "full_text": "a veb birerdoğai sayı olmak üzere ayb — ya?b dir. Kerem oyuncak arabasının boyunu 10 santimetrelik bir cetvel ile aşeğıdeki gibi ölçüyor. Buna göre oyuncak arabanın boyu sentimetre cinsinden aşağıdakilerden hangisi olabilir? A) 4y2                      8) 2/10                     C) 5/3                      D) 7v2",
+    "page": 4,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "8",
+    "raw_text": "ave b birer doğal sayı olmak üzere ayb -ya?b dir. Alanı 28 m? olan kare şeklindeki bir bahçenin çevresine 2 sıra tel çekilecektir. Telin metre fiyatı satın alınacak miktara göre değişiklik göstermektedir. Telin metre fiyatları aşağıdaki tabloda gösterilmiştir. Tablo: Tel Miktarına Göre Metre Fiyatları ETE em | em een | en Bu iş için kullanılacak telin metresi kaç lira olur?",
+    "options": [
+      "A) 13,5                         B) 14                           C) 14,5                         D) 15"
+    ],
+    "full_text": "ave b birer doğal sayı olmak üzere ayb -ya?b dir. Alanı 28 m? olan kare şeklindeki bir bahçenin çevresine 2 sıra tel çekilecektir. Telin metre fiyatı satın alınacak miktara göre değişiklik göstermektedir. Telin metre fiyatları aşağıdaki tabloda gösterilmiştir. Tablo: Tel Miktarına Göre Metre Fiyatları ETE em | em een | en Bu iş için kullanılacak telin metresi kaç lira olur? A) 13,5                         B) 14                           C) 14,5                         D) 15",
+    "page": 5,
+    "is_koklu": true,
+    "extraction_method": "hybrid",
+    "raw_text_ocr": "dekametrekaredir. A köşesinde bulunan bir su kaynağından bu havuzlara su aktarmak amacıyla bahçeleri sınırlayan çizgiler boyunca su kanalı açılacaktır. Bu kanalın toplam uzunluğu en az kaç dekametredir?",
+    "full_text_ocr": "dekametrekaredir. A köşesinde bulunan bir su kaynağından bu havuzlara su aktarmak amacıyla bahçeleri sınırlayan çizgiler boyunca su kanalı açılacaktır. Bu kanalın toplam uzunluğu en az kaç dekametredir? A) 21v2                         B) 19v2                         C) 15v2                         D) 11v2",
+    "options_ocr": [
+      "A) 21v2                         B) 19v2                         C) 15v2                         D) 11v2"
+    ],
+    "note": "Metin ve OCR versiyonları birleştirildi",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": false,
+    "has_table": true,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "10",
+    "raw_text": "a,b,c, dbirergerçek sayı ve cz20,d2Oolmaküzereayc-'bvd < a-'bvc'ddir. Boyutları x ve y olan dikdörtgenin alanı x - y dir. Ahmet ailesinin fotoğraflarını boyutları 10/3 cm ve 20v3 cm olan dikdörtgen şeklindeki kartona yapıştırarak aşağıdaki soy ağacı albümünü oluşturmuştur. Bö          © v        ş |         )                  ki   w   |)                    i      ) p——————————————— tt”, \"m|;\"“;N-T; $“\"“-LY İAĞww “lı 20v3 cm Ahmet'in bu kartona yapıştırdığı tüm fotoğrafların büyüklükleri birbirine eşit olup bir fotoğrafın boyutları 4/2 cm ve 3v2 cm'dir. Ahmet'in fotoğraf yapıştırdığı alan kartonun bir yüzeyinin yüzde kaçıdır?",
+    "options": [
+      "A) 20                                   B) 30                                   C) 40                                   D) 50"
+    ],
+    "full_text": "a,b,c, dbirergerçek sayı ve cz20,d2Oolmaküzereayc-'bvd < a-'bvc'ddir. Boyutları x ve y olan dikdörtgenin alanı x - y dir. Ahmet ailesinin fotoğraflarını boyutları 10/3 cm ve 20v3 cm olan dikdörtgen şeklindeki kartona yapıştırarak aşağıdaki soy ağacı albümünü oluşturmuştur. Bö          © v        ş |         )                  ki   w   |)                    i      ) p——————————————— tt”, \"m|;\"“;N-T; $“\"“-LY İAĞww “lı 20v3 cm Ahmet'in bu kartona yapıştırdığı tüm fotoğrafların büyüklükleri birbirine eşit olup bir fotoğrafın boyutları 4/2 cm ve 3v2 cm'dir. Ahmet'in fotoğraf yapıştırdığı alan kartonun bir yüzeyinin yüzde kaçıdır? A)20                                   B) 30                                   C) 40                                   D) 50",
+    "page": 6,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "11",
+    "raw_text": "a, b, c birer doğal sayı olmak üzere ya?.b-ayb ve aybicvb-(a*c)yb dir. Alanı 200 cm? olan dikdörtgen şeklindeki yukarıdaki kartondan hiç parça artmayacak şekilde 10 tane özdeş kare kesiliyor. Buna göre bu kartonun kesilmeden önceki çevresi en az kaç santimetredir?",
+    "options": [
+      "A) 24y'5                   B) 28y5                   C) 32y'5                  D) 36v'5"
+    ],
+    "full_text": "a, b, c birer doğal sayı olmak üzere ya?.b-ayb ve aybicvb-(a*c)yb dir. Alanı 200 cm? olan dikdörtgen şeklindeki yukarıdaki kartondan hiç parça artmayacak şekilde 10 tane özdeş kare kesiliyor. Buna göre bu kartonun kesilmeden önceki çevresi en az kaç santimetredir? A) 24y'5                   B) 28y5                   C) 32y'5                  D) 36v'5",
+    "page": 6,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "12",
+    "raw_text": "a, b. c. d birer doğal sayı olmaküzere a,b c;d—a cşb'd ve a,b— v a2b dir. “İki farklı irrasyonel sayının çarpımı bir rasyonel sayı olabilir.” .               ı, Alya Öğretmen öğrencilerinden tahtaya yazdığı ifadeye uygun iki farklı irrasyonel sayı bulmalarını istemiştir. Kerem: ç24 ile (54 Doruk : 4,2 ile ç'98 Tunahan : y45 ile 4,'5 Eylül : 2,3 ile ç72 Buna göre hangi öğrencinin bulduğu sayılar verilen ifadeye uygun değildir?",
+    "options": [
+      "A) Kerem                       B) Doruk                        C) Tunahan                     D) Eylül"
+    ],
+    "full_text": "a, b. c. d birer doğal sayı olmaküzere a,b c;d—a cşb'd ve a,b— v a2b dir. “İki farklı irrasyonel sayının çarpımı bir rasyonel sayı olabilir.” .               ı, Alya Öğretmen öğrencilerinden tahtaya yazdığı ifadeye uygun iki farklı irrasyonel sayı bulmalarını istemiştir. Kerem: ç24 ile (54 Doruk : 4,2 ile ç'98 Tunahan : y45 ile 4,'5 Eylül : 2,3 ile ç72 Buna göre hangi öğrencinin bulduğu sayılar verilen ifadeye uygun değildir? A) Kerem                       B) Doruk                        C) Tunahan                     D) Eylül",
+    "page": 7,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "17",
+    "raw_text": "a, b, c, d birer doğal sayı olmak üzere avb- ya? .b ve a.b'c.dza:c.bddir. Aşağıda bir işyerindeki çalışanlara verilen dikdörtgen şeklindeki personel giriş kartının görseli verilmiştir. PERSONEL GİRİŞ KARTI Adı     : Yiğit           1-5 Soyadı : Erol Nİ          Birimi : Destek Hizmetleri Kenar uzunlukları santimetre cinsinden birer doğal sayı olan bu kart üzerinde resim yapıştırılan kare şeklindeki bölge- nin alanı, kartın alanının 20 40'ına eşittir. Resim yapıştırılan karenin bir kenarının uzunluğu 2.5 cm olduğuna göre kartın çevresi kaç santimetredir?",
+    "options": [
+      "A) 20                             B)30                             C)34                            D) 54"
+    ],
+    "full_text": "a, b, c, d birer doğal sayı olmak üzere avb- ya? .b ve a.b'c.dza:c.bddir. Aşağıda bir işyerindeki çalışanlara verilen dikdörtgen şeklindeki personel giriş kartının görseli verilmiştir. PERSONEL GİRİŞ KARTI Adı     : Yiğit           1-5 Soyadı : Erol Nİ          Birimi : Destek Hizmetleri Kenar uzunlukları santimetre cinsinden birer doğal sayı olan bu kart üzerinde resim yapıştırılan kare şeklindeki bölge- nin alanı, kartın alanının 20 40'ına eşittir. Resim yapıştırılan karenin bir kenarının uzunluğu 2.5 cm olduğuna göre kartın çevresi kaç santimetredir? A)20                             B)30                             C)34                            D) 54",
+    "page": 7,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "18",
+    "raw_text": "Aşağıdaki robot, sistemine yüklenen yazılımdan aldığı talimata göre birim kareleri oluşturan çizgiler üzerinde hareket etmek- tedir. Bitiş Başlangıç —» Sağ Sisteme tam kare olmayan bir kareköklü sayı girildiğinde yazılımın robota verdiği talimat; birim cinsinden, kareköklü sayının en yakın olduğu doğal sayı değeri kadar, kareköklü sayı bu doğal sayıdan büyük ise sağa doğru, küçük ise yukarı doğru hareket etmesi şeklindedir. Buna göre yazılıma aşağıdaki kareköklü sayılardan hangilerinin girilmesi durumunda robot, başlangıç noktasından bitiş noktasına ulaşır?",
+    "options": [
+      "A) v15 ile V10         B) v15 ile V8          C) V17 ile V10         D) v17 ile v8"
+    ],
+    "full_text": "Aşağıdaki robot, sistemine yüklenen yazılımdan aldığı talimata göre birim kareleri oluşturan çizgiler üzerinde hareket etmek- tedir. Bitiş Başlangıç —» Sağ Sisteme tam kare olmayan bir kareköklü sayı girildiğinde yazılımın robota verdiği talimat; birim cinsinden, kareköklü sayının en yakın olduğu doğal sayı değeri kadar, kareköklü sayı bu doğal sayıdan büyük ise sağa doğru, küçük ise yukarı doğru hareket etmesi şeklindedir. Buna göre yazılıma aşağıdaki kareköklü sayılardan hangilerinin girilmesi durumunda robot, başlangıç noktasından bitiş noktasına ulaşır? A) v15 ile V10         B) v15 ile V8          C) V17 ile V10         D) v17 ile v8",
+    "page": 8,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "19",
+    "raw_text": "Aşağıda verilen iç içe geçmiş yeşil ve turuncu çarklardan oluşan sistem ile bir oyun oynanıyor. Oyuncunun bu sistemi döndürdükten sonra kazandığı puan; çarklar durduğunda kırmızı üçgenin ucunun gösterdiği yeşil bölgedeki sayının karekökünden büyük en küçük doğal sayı ile mavi üçgenin ucunun gösterdiği turuncu bölgedeki sayının karekökünden küçük en büyük doğal sayı çarpılarak hesaplanır. Bu oyunu oynayan Doruk, sistemi döndürdükten sonra, çarklar durduğunda oluşan görüntü yukarıda verilmiştir. Buna göre Doruk kaç puan kazanır?",
+    "options": [
+      "A) 84                                 B) 91                                 Cc) 98                                D) 104"
+    ],
+    "full_text": "Aşağıda verilen iç içe geçmiş yeşil ve turuncu çarklardan oluşan sistem ile bir oyun oynanıyor. Oyuncunun bu sistemi döndürdükten sonra kazandığı puan; çarklar durduğunda kırmızı üçgenin ucunun gösterdiği yeşil bölgedeki sayının karekökünden büyük en küçük doğal sayı ile mavi üçgenin ucunun gösterdiği turuncu bölgedeki sayının karekökünden küçük en büyük doğal sayı çarpılarak hesaplanır. Bu oyunu oynayan Doruk, sistemi döndürdükten sonra, çarklar durduğunda oluşan görüntü yukarıda verilmiştir. Buna göre Doruk kaç puan kazanır? A) 84                                 B) 91                                 Cc) 98                                D) 104",
+    "page": 8,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "20",
+    "raw_text": "a, b, c, d birer doğal sayı olmak üzere a.b- ya?.b,avb*cvb-(a*c)vb, avb—cvb-(a—c)vbveavb:c.d-a:c.bddir. Türk bayrağının boyu, genişliğinin 1,5 katıdır. Yanda 10 Kasım Atatürk'ü Anma Programı'nda                                                 İl s2m yarıya indirilmiş bir bayrak gösterilmiştir. «200 m «32m Bayrağın hem direğin üst kısmına, hem de zemine olan uzaklığı v32 m dir. Bayrak direğinin boyu 200 m olduğuna göre bayrağın bir yüzünün alanı kaç metrekaredir?",
+    "options": [
+      "A) 6                                 B)8                                  C) 10                               D) 12"
+    ],
+    "full_text": "a, b, c, d birer doğal sayı olmak üzere a.b- ya?.b,avb*cvb-(a*c)vb, avb—cvb-(a—c)vbveavb:c.d-a:c.bddir. Türk bayrağının boyu, genişliğinin 1,5 katıdır. Yanda 10 Kasım Atatürk'ü Anma Programı'nda                                                 İl s2m yarıya indirilmiş bir bayrak gösterilmiştir. «200 m «32m Bayrağın hem direğin üst kısmına, hem de zemine olan uzaklığı v32 m dir. Bayrak direğinin boyu 200 m olduğuna göre bayrağın bir yüzünün alanı kaç metrekaredir? A)6                                 B)8                                  C) 10                               D) 12",
+    "page": 9,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "21",
+    "raw_text": "a ve b birer doğal sayı olmak üzere avb - ya?.b dir. Bir yaya geçidinde trafik lambalarının altına, kırmızı ışığın kaç saniye sonra yanacağını gösteren bir tabela koyulmuştur. Kerem, bu yaya geçidine geldiğinde tabelada 10 yazdığını görmüş ve sabit hızla saniyede 1 m yol alarak kırmızı ışık yanmadan 2 saniye önce karşıya geçmiştir. Buna göre bu yaya geçidinin metre cinsinden uzunluğu aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "A) 36                             B) 4.5                             C)53                            D) 6.3"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere avb - ya?.b dir. Bir yaya geçidinde trafik lambalarının altına, kırmızı ışığın kaç saniye sonra yanacağını gösteren bir tabela koyulmuştur. Kerem, bu yaya geçidine geldiğinde tabelada 10 yazdığını görmüş ve sabit hızla saniyede 1 m yol alarak kırmızı ışık yanmadan 2 saniye önce karşıya geçmiştir. Buna göre bu yaya geçidinin metre cinsinden uzunluğu aşağıdakilerden hangisi olabilir? A) 36                             B) 4.5                             C)53                            D) 6.3",
+    "page": 9,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "22",
+    "raw_text": "a ve b birer doğal sayı olmak üzere avb - va? -b dir. Aşağıda verilen taburenin yerden yüksekliği, oturma bölümünün ok yönünde bir tam tur dönüşünde v3 cm artmaktadır. «>     | Bu taburenin yerden yüksekliği en kısa hâlinde 45 cm, en uzun hâlinde ise 60 cm dir. Eylül bu tabureyi ok yönünde döndürerek en uzun haline getirmiştir. Buna göre Eylül tabureyi en çok kaç tam tur döndürmüştür?",
+    "options": [
+      "A) 6                                  B)7                                   c)8                                  D)9"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere avb - va? -b dir. Aşağıda verilen taburenin yerden yüksekliği, oturma bölümünün ok yönünde bir tam tur dönüşünde v3 cm artmaktadır. «>     | Bu taburenin yerden yüksekliği en kısa hâlinde 45 cm, en uzun hâlinde ise 60 cm dir. Eylül bu tabureyi ok yönünde döndürerek en uzun haline getirmiştir. Buna göre Eylül tabureyi en çok kaç tam tur döndürmüştür? A)6                                  B)7                                   c)8                                  D)9",
+    "page": 10,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "25",
+    "raw_text": "a, b, c birer doğal sayı olmak üzereayb- va?.b ,a/b*cy/bz(a*c)/b ve a/b—cvbz(a—cj/bdir. Yanda, bir yarışmada ilk üçe girerek madalya almaya hak ka-                           e        -       a z zanan üç sporcunun derece kürsülerine çıktıklarında boylarının                              V      VW aynı hizaya geldiği görülmektedir. Bu derece kürsüsünde yer alan 1, 2 ve 3 sayılarının yazılı olduğu kare şeklindeki yüzeylerin alanları sırasıyla 980 cm?, 720 cm? ve",
+    "options": [],
+    "full_text": "a, b, c birer doğal sayı olmak üzereayb- va?.b ,a/b*cy/bz(a*c)/b ve a/b—cvbz(a—cj/bdir. Yanda, bir yarışmada ilk üçe girerek madalya almaya hak ka-                           e        -       a z zanan üç sporcunun derece kürsülerine çıktıklarında boylarının                              V      VW aynı hizaya geldiği görülmektedir. Bu derece kürsüsünde yer alan 1, 2 ve 3 sayılarının yazılı olduğu kare şeklindeki yüzeylerin alanları sırasıyla 980 cm?, 720 cm? ve",
+    "page": 10,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "405",
+    "raw_text": "cm? dir. Buna göre 1. ve 3. olan sporcular arasındaki boy farkı, 1. ve 2. olan sporcular arasındaki boy farkının kaç ka- tıdır?",
+    "options": [
+      "A) 2                                  B) 2,5                                Cc)3                                  D) 3,5"
+    ],
+    "full_text": "cm? dir. Buna göre 1. ve 3. olan sporcular arasındaki boy farkı, 1. ve 2. olan sporcular arasındaki boy farkının kaç ka- tıdır? A)2                                  B) 2,5                                Cc)3                                  D) 3,5",
+    "page": 10,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "27",
+    "raw_text": "a ve b birer doğal sayı olmak üzere ayb > v a?-b dir. Bir uzun atlama pistinde koşmaya başlayan Hayat, Zeynep ve Sude isimli üç sporcunun tahtadan sıçradıktan sonra kum piste düştüğü yerler aşağıdaki noktalar ile gösterilmiştir. Sıçrama Tahtası Düştüğü nokta sıçrama tahtasına en yakın olan Sude, en uzak olan ise Zeynep 'tir. Sude'nin düştüğü noktanın pist sonuna olan uzaklığı 5 metre, Zeynep'in ise 4,5 metredir. Buna göre Hayat'ın düştüğü noktanın pist sonuna olan uzaklığı metre cinsinden aşağıdakilerden hangisi ola- bilir?",
+    "options": [
+      "A) 23                                  B)3v2                                  Cc) 2v6                                 D)3v3"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere ayb > v a?-b dir. Bir uzun atlama pistinde koşmaya başlayan Hayat, Zeynep ve Sude isimli üç sporcunun tahtadan sıçradıktan sonra kum piste düştüğü yerler aşağıdaki noktalar ile gösterilmiştir. Sıçrama Tahtası Düştüğü nokta sıçrama tahtasına en yakın olan Sude, en uzak olan ise Zeynep 'tir. Sude'nin düştüğü noktanın pist sonuna olan uzaklığı 5 metre, Zeynep'in ise 4,5 metredir. Buna göre Hayat'ın düştüğü noktanın pist sonuna olan uzaklığı metre cinsinden aşağıdakilerden hangisi ola- bilir? A) 23                                  B)3v2                                  Cc) 2v6                                 D)3v3",
+    "page": 11,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "29",
+    "raw_text": "a ve b birer doğal sayı olmak üzere avb x ya? .b dir. Aşağıdaki görselde, ahşap kalem kutusunun kenarı ile bu kutunun kapağı olan 20 santimetrelik cetvelin arasına yerleş- tirilmiş bir kalemtıraş görülmektedir. İLİ b a wyeypu     z     < Buna göre bu kalemtıraşın uzunluğu santimetre cinsinden aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "A) 3v2                               B)2v3                               Cc) 2v2                              D) v6"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere avb x ya? .b dir. Aşağıdaki görselde, ahşap kalem kutusunun kenarı ile bu kutunun kapağı olan 20 santimetrelik cetvelin arasına yerleş- tirilmiş bir kalemtıraş görülmektedir. İLİ b a wyeypu     z     < Buna göre bu kalemtıraşın uzunluğu santimetre cinsinden aşağıdakilerden hangisi olabilir? A) 3v2                               B)2v3                               Cc) 2v2                              D) v6",
+    "page": 11,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "31",
+    "raw_text": "a ve b birer doğal sayı olmak üzere ayb > Va?.b dir. Kuzey, Çınar ve Ali birlikte lunaparka gidip bir dönme dolabın farklı kabinlerine binerler. Ali'nin bulunduğu kabin                 G. Mp —  &N 5  -                     Çınar'ın bulunduğu kabin *”z»    ae   | —   Li   ——                      uzey'in bulunduğu kabin Zemin Ali'nin bulunduğu kabinin zeminden yüksekliği 12 metre, Kuzey'in bulunduğu kabinin zeminden yüksekliği ise 4 met- redir. Buna göre Çınar'ın bulunduğu kabinin zeminden yüksekliği metre cinsinden aşağıdakilerden hangisi olabilir?",
+    "options": [
+      "A) 3v5                               B) 2v15                              C)4v5                               D)7v3"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere ayb > Va?.b dir. Kuzey, Çınar ve Ali birlikte lunaparka gidip bir dönme dolabın farklı kabinlerine binerler. Ali'nin bulunduğu kabin                 G. Mp —  &N 5  -                     Çınar'ın bulunduğu kabin *”z»    ae   | —   Li   ——                      uzey'in bulunduğu kabin Zemin Ali'nin bulunduğu kabinin zeminden yüksekliği 12 metre, Kuzey'in bulunduğu kabinin zeminden yüksekliği ise 4 met- redir. Buna göre Çınar'ın bulunduğu kabinin zeminden yüksekliği metre cinsinden aşağıdakilerden hangisi olabilir? A) 3v5                               B) 2v15                              C)4v5                               D)7v3",
+    "page": 12,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "32",
+    "raw_text": "Aşağıdaki hedef tahtasındaki her daire dilimi kırmızı ve beyaz olmak üzere iki bölgeden oluşmaktadır. Bu hedef tahtasına yapılan atışlarda, » Beyaz bölgeye isabet eden atışlar o dilimdeki sayının kendisi kadar, »* Kırmızı bölgeye isabet eden atışlar o dilimdeki sayı tam kare ise sayının karekökü kadar, değil ise sayının ka- reköküne en yakın tam sayı kadar puan kazandırmaktadır. Hedef tahtasına 2 atış yapan bir atıcının atışları, hedef tahtasının aynı dilimindeki farklı renkte olan bölgelerine isabet etmiştir. Buna göre aşağıdakilerden hangisi bu atıcının aldığı puan olamaz?",
+    "options": [
+      "A) 3                              B)7                               c)9                              D) 11"
+    ],
+    "full_text": "Aşağıdaki hedef tahtasındaki her daire dilimi kırmızı ve beyaz olmak üzere iki bölgeden oluşmaktadır. Bu hedef tahtasına yapılan atışlarda, » Beyaz bölgeye isabet eden atışlar o dilimdeki sayının kendisi kadar, »* Kırmızı bölgeye isabet eden atışlar o dilimdeki sayı tam kare ise sayının karekökü kadar, değil ise sayının ka- reköküne en yakın tam sayı kadar puan kazandırmaktadır. Hedef tahtasına 2 atış yapan bir atıcının atışları, hedef tahtasının aynı dilimindeki farklı renkte olan bölgelerine isabet etmiştir. Buna göre aşağıdakilerden hangisi bu atıcının aldığı puan olamaz? A)3                              B)7                               c)9                              D) 11",
+    "page": 12,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "33",
+    "raw_text": "Yarıçapı r olan dairenin çevresi Zar dir. a ve b birer doğal sayı olmak üzere avb x ya?.b dir. Kare tekerlekli bisikletler düz bir yolda hareket edemeseler de aşağıdaki gibi bu bisikletlere özel olarak üretilen plat- formlar üzerinde hareket edebümektedirler. Aşağıda eş tekerleklerinin bir yüzlerinin alanı 1125 cm? olan kare tekerlekli bir bisiklet için hazırlanmış bir platformun görseli verilmiştir. d                                     U /                                                                                            M    i v                                                                   — ,                                                                 mi       i             a                    : Bu platform, bisikletin tekerleklerinin kenar uzunluğu; üzerinden geçtiği yarım silindirlerin, yarım daire biçimindeki yü- zeyinin uzunluğuna eşit olacak şekilde ayarlanmıştır. Bu sayede bisiklet, 30 tane eş yarım silindirden oluşan bu platfor- mun üzerinde AB doğru parçasına paralel olarak ileri geri hareket edebilmektedir. Buna göre platform üzerindeki A ve B noktaları arasındaki uzaklık kaç santimetredir? (x - 3 alınız.)",
+    "options": [
+      "A) 75v5                              B) 150v5                             C) 2255                            D) 300v5"
+    ],
+    "full_text": "Yarıçapı r olan dairenin çevresi Zar dir. a ve b birer doğal sayı olmak üzere avb x ya?.b dir. Kare tekerlekli bisikletler düz bir yolda hareket edemeseler de aşağıdaki gibi bu bisikletlere özel olarak üretilen plat- formlar üzerinde hareket edebümektedirler. Aşağıda eş tekerleklerinin bir yüzlerinin alanı 1125 cm? olan kare tekerlekli bir bisiklet için hazırlanmış bir platformun görseli verilmiştir. d                                     U /                                                                                            M    i v                                                                   — ,                                                                 mi       i             a                    : Bu platform, bisikletin tekerleklerinin kenar uzunluğu; üzerinden geçtiği yarım silindirlerin, yarım daire biçimindeki yü- zeyinin uzunluğuna eşit olacak şekilde ayarlanmıştır. Bu sayede bisiklet, 30 tane eş yarım silindirden oluşan bu platfor- mun üzerinde AB doğru parçasına paralel olarak ileri geri hareket edebilmektedir. Buna göre platform üzerindeki A ve B noktaları arasındaki uzaklık kaç santimetredir? (x - 3 alınız.) A) 75v5                              B) 150v5                             C) 2255                            D) 300v5",
+    "page": 13,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "35",
+    "raw_text": "a,b,c, d birer doğal sayı olmak üzere avc—b.cs(a—b).cveasb-ci'dza'c.b-'ddir. Aşağıda verilen dikdörtgenler prizması şeklindeki kutunun üstte görünen kapağının uzun kenarı, kısa kenarının uzun- luğunun 6 katıdır. Kutunun kapağı uzun kenarı boyunca bu kenarın 5 'i kadar Şekil 1'deki gibi açıldığında, kutunun iç bölgesini gösteren dikdörtgensel bölgenin alanı 24 cm?2 olmaktadır. Daha sonra Şekil 1'deki gibi açık durumda olan kapak, uzun kenarı boyunca 3 ç 3 cm kadar Şekil 2'deki gibi kapatılıyor. Şekil 1                                                      Şekil 2 Buna göre Şekil 2'deki gibi açık durumda bulunan kapağın, dışarıda kalan kısmının kısa kenarı kaç santimetredir?",
+    "options": [
+      "A) «3                               B)2.3                              C)4.3                             D) 11.3"
+    ],
+    "full_text": "a,b,c, d birer doğal sayı olmak üzere avc—b.cs(a—b).cveasb-ci'dza'c.b-'ddir. Aşağıda verilen dikdörtgenler prizması şeklindeki kutunun üstte görünen kapağının uzun kenarı, kısa kenarının uzun- luğunun 6 katıdır. Kutunun kapağı uzun kenarı boyunca bu kenarın 5 'i kadar Şekil 1'deki gibi açıldığında, kutunun iç bölgesini gösteren dikdörtgensel bölgenin alanı 24 cm?2 olmaktadır. Daha sonra Şekil 1'deki gibi açık durumda olan kapak, uzun kenarı boyunca 3 ç 3 cm kadar Şekil 2'deki gibi kapatılıyor. Şekil 1                                                      Şekil 2 Buna göre Şekil 2'deki gibi açık durumda bulunan kapağın, dışarıda kalan kısmının kısa kenarı kaç santimetredir? A) «3                               B)2.3                              C)4.3                             D) 11.3",
+    "page": 14,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "37",
+    "raw_text": "a, b, c, d birer doğal sayı olmak üzere a.b > yalb vea.b-c.dza-c/bddr Bir matematik öğretmeni birbirine bağlanabien oyuncakların bağlantı yerlerine birer kareköklü ifade yazmıştır. Bu oyuncakları Sevilay'a veren öğretmen ondan, oyuncakları üstünde yazılı kareköklü ifadelerin çarpımı rasyonel sayı olan bağlantı yerlerinden birbirine bağlayarak bir yapı oluşturmasını istemiştir. Sevilay oyuncakları öğretmeninin istediği şekilde bağladığına göre aşağıdakilerden hangisi Sevilay'ın oluştur- duğu yapı olabilir? (çe)                                                  gi ça ©        e Cc)                                                     D) FETO) Ve      Ge > 4",
+    "options": [
+      "A) >                                   8)                    |"
+    ],
+    "full_text": "a, b, c, d birer doğal sayı olmak üzere a.b > yalb vea.b-c.dza-c/bddr Bir matematik öğretmeni birbirine bağlanabien oyuncakların bağlantı yerlerine birer kareköklü ifade yazmıştır. Bu oyuncakları Sevilay'a veren öğretmen ondan, oyuncakları üstünde yazılı kareköklü ifadelerin çarpımı rasyonel sayı olan bağlantı yerlerinden birbirine bağlayarak bir yapı oluşturmasını istemiştir. Sevilay oyuncakları öğretmeninin istediği şekilde bağladığına göre aşağıdakilerden hangisi Sevilay'ın oluştur- duğu yapı olabilir? A)               >                                   8)                    | (çe)                                                  gi ça ©        e Cc)                                                     D) FETO) Ve      Ge > 4",
+    "page": 15,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "38",
+    "raw_text": "Duatlon koşu etabı ile başlayıp bisiklet etabı ile devam eden ve tekrar koşu etabı ile biten bir spordur. Aynı anda yarışa başlayan sporcuların sırayla bu etapları tamamlaması gerekmektedir. Bu yarışı, etapları tamamlama sürelerinin topla- mı en az olan sporcu kazanmaktadır. '                                 Ny »                                                        < ,                                                     pa        <",
+    "options": [],
+    "full_text": "Duatlon koşu etabı ile başlayıp bisiklet etabı ile devam eden ve tekrar koşu etabı ile biten bir spordur. Aynı anda yarışa başlayan sporcuların sırayla bu etapları tamamlaması gerekmektedir. Bu yarışı, etapları tamamlama sürelerinin topla- mı en az olan sporcu kazanmaktadır. '                                 Ny »                                                        < ,                                                     pa        <",
+    "page": 16,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "40",
+    "raw_text": "120 dm e —ş—ş—şğ—şğ—ş—ğ—ğ—ğ—ğ—ğ—ğ—ğ << — li",
+    "options": [],
+    "full_text": "120 dm e —ş—ş—şğ—şğ—ş—ğ—ğ—ğ—ğ—ğ—ğ—ğ << — li",
+    "page": 16,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "düşük"
+  },
+  {
+    "question_number": "150",
+    "raw_text": "dm Bir marangoz yukarıdaki tahtaların kalınlıklarını değiştirmeden mavi tahtadan 215 dm, bordo tahtadan ise 3v5 dm uzunluğunda eş parçalar kesmiştir. Marangoz sadece kestiği bu parçaları kullanarak aşağıdaki eş kitaplıkları yapmıştır. Ni H                   Ni                  — 3v5 dm Buna göre marangozun yapmış olduğu kitaplık sayısı en çok kaçtır?",
+    "options": [
+      "A) 6                                     B)7                                      c)8                                     D) 9"
+    ],
+    "full_text": "dm Bir marangoz yukarıdaki tahtaların kalınlıklarını değiştirmeden mavi tahtadan 215 dm, bordo tahtadan ise 3v5 dm uzunluğunda eş parçalar kesmiştir. Marangoz sadece kestiği bu parçaları kullanarak aşağıdaki eş kitaplıkları yapmıştır. Ni H                   Ni                  — 3v5 dm Buna göre marangozun yapmış olduğu kitaplık sayısı en çok kaçtır? A)6                                     B)7                                      c)8                                     D) 9",
+    "page": 16,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "41",
+    "raw_text": "a ve b birer doğal sayı olmak üzere ajb - Jalbdir. Kaan ve Doruk kuralları aşağıda verilen bir sayı oyunu oynuyorlar. * Oyuna başlayan oyuncu bir rakam söyler. * Diğer oyuncu arkadaşının söylediği sayının v2 katının en yakın olduğu doğal sayı değerini bulup söyler. » Sıra tekrar oyuna başlayan oyuncuya geldiğinde, o da arkadaşının söylediği sayının v2 katının en yakın olduğu doğal sayı değerini bulup söyler. * Oyun bu şekilde oyunculardan biri yanlış bir sayı söyleyene kadar devam eder. Kaan oyuna 3 rakamını söyleyerek başlamış ve Doruk üçüncü kez sayı söylediğinde oyun bitmiştir. Buna göre aşağıdakilerden hangisi Doruk'un söylediği sayılardan biri olamaz?",
+    "options": [
+      "A) 4                   B)8                   C)15                  D) 16"
+    ],
+    "full_text": "a ve b birer doğal sayı olmak üzere ajb - Jalbdir. Kaan ve Doruk kuralları aşağıda verilen bir sayı oyunu oynuyorlar. * Oyuna başlayan oyuncu bir rakam söyler. * Diğer oyuncu arkadaşının söylediği sayının v2 katının en yakın olduğu doğal sayı değerini bulup söyler. » Sıra tekrar oyuna başlayan oyuncuya geldiğinde, o da arkadaşının söylediği sayının v2 katının en yakın olduğu doğal sayı değerini bulup söyler. * Oyun bu şekilde oyunculardan biri yanlış bir sayı söyleyene kadar devam eder. Kaan oyuna 3 rakamını söyleyerek başlamış ve Doruk üçüncü kez sayı söylediğinde oyun bitmiştir. Buna göre aşağıdakilerden hangisi Doruk'un söylediği sayılardan biri olamaz? A)4                   B)8                   C)15                  D) 16",
+    "page": 17,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "42",
+    "raw_text": "a, b, c birer doğal sayı olmak üzere ab z JaZb,ayctb/cz(atb)/cvea/c-b/cz(a—b) Vcdir. Fotoğraf çekerken net olarak görebildiğimiz en yakın nesne ile en uzak nesne arasındaki mesafeye net alan derinliği denir. Fotoğraf Makinesi İle Netleme Yapılan Ağaç Arasındaki Uzaklık v180 m Netleme NN                                                                      Yapılan Ağaç Net Olmayan Bolge       Net Olan Bolge         Net Olmayan Bölge Volkan fotoğraf makinesine v180 m uzaklıkta bulunan bir ağaca göre fotoğraf makinesinin net alan derinliğini ayarla- mıştır. Volkan'ın yaptığı bu ayarlamada; * Net alan derinliği, makine ile netleme yapılan ağaç arasındaki mesafenin yarısı kadardır. * Netleme yapılan ağaç ile fotoğraf makinesi arasındaki net olan bölge, net alan derinliğinin ze kadardır. Buna göre net olan bölgede yer alan bir nesne ile fotoğraf makinesi arasındaki uzaklığın metre cinsinden ala- bileceği en küçük ve en büyük tam sayı değerleri aşağıdakilerden hangisidir? En Küçük (En Büyük Cc)       12                17",
+    "options": [
+      "A) 11                18",
+      "B) 11                17",
+      "D) 12                18"
+    ],
+    "full_text": "a, b, c birer doğal sayı olmak üzere ab z JaZb,ayctb/cz(atb)/cvea/c-b/cz(a—b) Vcdir. Fotoğraf çekerken net olarak görebildiğimiz en yakın nesne ile en uzak nesne arasındaki mesafeye net alan derinliği denir. Fotoğraf Makinesi İle Netleme Yapılan Ağaç Arasındaki Uzaklık v180 m Netleme NN                                                                      Yapılan Ağaç Net Olmayan Bolge       Net Olan Bolge         Net Olmayan Bölge Volkan fotoğraf makinesine v180 m uzaklıkta bulunan bir ağaca göre fotoğraf makinesinin net alan derinliğini ayarla- mıştır. Volkan'ın yaptığı bu ayarlamada; * Net alan derinliği, makine ile netleme yapılan ağaç arasındaki mesafenin yarısı kadardır. * Netleme yapılan ağaç ile fotoğraf makinesi arasındaki net olan bölge, net alan derinliğinin ze kadardır. Buna göre net olan bölgede yer alan bir nesne ile fotoğraf makinesi arasındaki uzaklığın metre cinsinden ala- bileceği en küçük ve en büyük tam sayı değerleri aşağıdakilerden hangisidir? En Küçük (En Büyük A)       11                18 B)       11                17 Cc)       12                17 D)       12                18",
+    "page": 17,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "44",
+    "raw_text": "Bora ve Işıl, “Aldım, verdim, ben seni yendim” tekerlermesiyle oynanan oyun için aralarında belli bir mesafe bırakıp karşılıklı durmuşlardır. Aşağıda oynadıkları bu oyunun kuralları verilmiştir. * Oyuna ilk başlayan oyuncu topuğunu A ve B noktalarından birine koyarak, tekerlemenin her kelimesinde ayağının uç noktasına diğer ayağının topuğunu değdirerek tekerleme bitene kadar ilerlemeye başlar. » İlk oyuncu tekerlemeyi bitirdiğinde diğer oyuncu aynı şekilde rakibine doğru ilerler. * Tekerlemenin herhangi bir kelimesinde diğer oyuncunun ayağının uç noktasına ilk değen ya da ayağının üstüne ilk basan oyuncu oyunu kazanır. —>                                                                                                                                  —— A                                                                                                                                                             B A noktasından oyuna ilk başlayan Bora'nın ayakkabısının uzunluğu V512 cm, sonrasında B noktasından oyuna başla- yan Işıl'ın ayakkabısının uzunluğu ise V450 santimetredir. Oyunu aşağıdaki görselde verildiği gibi 11. adımında ayakkabısı, Bora'nın ayakkabısına ilk basan Işıl kazanmıştır. A -            o   e   o     4S <> >       e   e   o          am B Bora ve Işıl'ın oyuna başladıkları A ve B noktaları arasındaki mesafe desimetre cinsinden bir tamsayıdır. Buna göre A ve B noktaları arasındaki mesafe desimetre cinsinden aşağıdakilerden hangisi olabilir? (1 dm 10 cm)",
+    "options": [
+      "A) 51                                 B) 56                                 C) 61                                 D) 66"
+    ],
+    "full_text": "Bora ve Işıl, “Aldım, verdim, ben seni yendim” tekerlermesiyle oynanan oyun için aralarında belli bir mesafe bırakıp karşılıklı durmuşlardır. Aşağıda oynadıkları bu oyunun kuralları verilmiştir. * Oyuna ilk başlayan oyuncu topuğunu A ve B noktalarından birine koyarak, tekerlemenin her kelimesinde ayağının uç noktasına diğer ayağının topuğunu değdirerek tekerleme bitene kadar ilerlemeye başlar. » İlk oyuncu tekerlemeyi bitirdiğinde diğer oyuncu aynı şekilde rakibine doğru ilerler. * Tekerlemenin herhangi bir kelimesinde diğer oyuncunun ayağının uç noktasına ilk değen ya da ayağının üstüne ilk basan oyuncu oyunu kazanır. —>                                                                                                                                  —— A                                                                                                                                                             B A noktasından oyuna ilk başlayan Bora'nın ayakkabısının uzunluğu V512 cm, sonrasında B noktasından oyuna başla- yan Işıl'ın ayakkabısının uzunluğu ise V450 santimetredir. Oyunu aşağıdaki görselde verildiği gibi 11. adımında ayakkabısı, Bora'nın ayakkabısına ilk basan Işıl kazanmıştır. A -            o   e   o     4S <> >       e   e   o          am B Bora ve Işıl'ın oyuna başladıkları A ve B noktaları arasındaki mesafe desimetre cinsinden bir tamsayıdır. Buna göre A ve B noktaları arasındaki mesafe desimetre cinsinden aşağıdakilerden hangisi olabilir? (1 dm 10 cm) A) 51                                 B) 56                                 C) 61                                 D) 66",
+    "page": 18,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "45",
+    "raw_text": "Aşağıda çevresi 60v2 cm olan dikdörtgen biçiminde bir karton verilmiştir. Bu karton 50 eş kareye bölünüp, bu karelerden bazıları kırmızıya boyanmıştır. Aşağıda yanlışlıkla bir kısmı yırtılan bu kartonun kalan bölümü verilmiştir. |                               |            b Lİ um bizi LAM | | Karton üzerinde boyanan tüm karelerin alanları toplamı 160 cm? olduğuna göre kartonun yırtılan kısmında kaç tane boyanmış kare vardır?",
+    "options": [
+      "A) 3                               B)9                               C) 11                               D) 13"
+    ],
+    "full_text": "Aşağıda çevresi 60v2 cm olan dikdörtgen biçiminde bir karton verilmiştir. Bu karton 50 eş kareye bölünüp, bu karelerden bazıları kırmızıya boyanmıştır. Aşağıda yanlışlıkla bir kısmı yırtılan bu kartonun kalan bölümü verilmiştir. |                               |            b Lİ um bizi LAM | | Karton üzerinde boyanan tüm karelerin alanları toplamı 160 cm? olduğuna göre kartonun yırtılan kısmında kaç tane boyanmış kare vardır? A)3                               B)9                               C) 11                               D) 13",
+    "page": 18,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "48",
+    "raw_text": "Bir havuzun etrafına her birinin alanı V0,0625 m? olan kare biçimindeki 200 tane taş tek sıra hâlinde, aralarında boşluk olmadan dizilmiştir. Aşağıda bu taşların dizilimi modellenmiştir. rr            — D                                                                    C Buna göre köşeleri A, B, C, D olarak isimlendirilen dikdörtgen biçimindeki bölgenin çevresinin uzunluğu kaç metredir?",
+    "options": [
+      "A) 98                  B) 100                 Cc) 102                 D) 104"
+    ],
+    "full_text": "Bir havuzun etrafına her birinin alanı V0,0625 m? olan kare biçimindeki 200 tane taş tek sıra hâlinde, aralarında boşluk olmadan dizilmiştir. Aşağıda bu taşların dizilimi modellenmiştir. rr            — D                                                                    C Buna göre köşeleri A, B, C, D olarak isimlendirilen dikdörtgen biçimindeki bölgenin çevresinin uzunluğu kaç metredir? A) 98                  B) 100                 Cc) 102                 D) 104",
+    "page": 19,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "49",
+    "raw_text": "Her birinin genişliği 12/5 cm olan özdeş kutular bir rafa aşağıdaki gibi dizilmiştir. 3,2 metre - —Çİ 12v5 cm Buna göre bu rafa dizilen kutu sayısı en çok kaçtır? (1m — 100 cm)",
+    "options": [
+      "A) 31                                    B)35                                    C)36                                   D)39"
+    ],
+    "full_text": "Her birinin genişliği 12/5 cm olan özdeş kutular bir rafa aşağıdaki gibi dizilmiştir. 3,2 metre - —Çİ 12v5 cm Buna göre bu rafa dizilen kutu sayısı en çok kaçtır? (1m — 100 cm) A) 31                                    B)35                                    C)36                                   D)39",
+    "page": 19,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "50",
+    "raw_text": "Aşağıda kare biçimindeki yüzeylerinin alanları 5 dm? olan sarı renkli ve 7 dm? olan mavi renkli kartonlar verilmiştir. Bu kartonlar dikdörtgen biçimindeki bir levhanın etrafına aşağıdaki gibi dizilmiştir. en | sn san sn | a | sn | sa Bu levhanın eni ve boyu desimetre cinsinden birer tam sayı olduğuna göre çevresi kaç desimetredir?",
+    "options": [
+      "A) 54                               B) 52                               C)50                              D) 48"
+    ],
+    "full_text": "Aşağıda kare biçimindeki yüzeylerinin alanları 5 dm? olan sarı renkli ve 7 dm? olan mavi renkli kartonlar verilmiştir. Bu kartonlar dikdörtgen biçimindeki bir levhanın etrafına aşağıdaki gibi dizilmiştir. en | sn san sn | a | sn | sa Bu levhanın eni ve boyu desimetre cinsinden birer tam sayı olduğuna göre çevresi kaç desimetredir? A) 54                               B) 52                               C)50                              D) 48",
+    "page": 20,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "51",
+    "raw_text": "pH değeri bir çözeltinin asidik veya bazik olma derecesini gösteren bir ölçüttür. pH değerinin 7 olması asitlik ve bazlık açısından nötr olarak tanımlanırken pH değeri küçüldükçe asidik, büyüdükçe bazik özellik gösterir. pH 0 1 23 4 85 6 7 8 9 10 11 12 13 14 la > Aşağıda bazı maddelerin pH değerleri verilmiştir. |, Bulaşık Deterjanı O Portakal Suyu         Çay              Süt m... İN      23      3/3      35 Buna göre yukarıda verilen maddelerden kaç tanesi asidik özelliğe sahiptir?",
+    "options": [
+      "A) 1                                 B)2                                 Cc)3                                D) 4"
+    ],
+    "full_text": "pH değeri bir çözeltinin asidik veya bazik olma derecesini gösteren bir ölçüttür. pH değerinin 7 olması asitlik ve bazlık açısından nötr olarak tanımlanırken pH değeri küçüldükçe asidik, büyüdükçe bazik özellik gösterir. pH 0 1 23 4 85 6 7 8 9 10 11 12 13 14 la > Aşağıda bazı maddelerin pH değerleri verilmiştir. |, Bulaşık Deterjanı O Portakal Suyu         Çay              Süt m... İN      23      3/3      35 Buna göre yukarıda verilen maddelerden kaç tanesi asidik özelliğe sahiptir? A)1                                 B)2                                 Cc)3                                D) 4",
+    "page": 20,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "54",
+    "raw_text": "a, b, c birerdoğal sayı olmaküzereayb - ya?.b ab *cJ/b-(a1c)/b dir. Aşağıdaki şekilde birbirine paralel olan A ile B yolları ve bu yollar arasında kalan araziler verilmiştir. Bu arazilerden kare biçiminde olan üç arazinin alanları şekilde gösterilmiştir. |                                                            | |                                                            | |       i |                                                            | |                                                            | |                                                            | m | | A ve B yolları arasındaki bağlantıyı sağlayacak bir yol yapılması planlanmaktadır. Yapılabilecek en kısa yolun hektometre cinsinden uzunluğuna en yakın doğal sayı aşağıdakilerden hangisidir?",
+    "options": [
+      "A) 15                 B) 16                  C) 17                 D) 18"
+    ],
+    "full_text": "a, b, c birerdoğal sayı olmaküzereayb - ya?.b ab *cJ/b-(a1c)/b dir. Aşağıdaki şekilde birbirine paralel olan A ile B yolları ve bu yollar arasında kalan araziler verilmiştir. Bu arazilerden kare biçiminde olan üç arazinin alanları şekilde gösterilmiştir. |                                                            | |                                                            | |       i |                                                            | |                                                            | |                                                            | m | | A ve B yolları arasındaki bağlantıyı sağlayacak bir yol yapılması planlanmaktadır. Yapılabilecek en kısa yolun hektometre cinsinden uzunluğuna en yakın doğal sayı aşağıdakilerden hangisidir? A) 15                 B) 16                  C) 17                 D) 18",
+    "page": 21,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "55",
+    "raw_text": "a,b, c birerdoğal sayı olmak üzere ayb - ya?.b,a/b*tcJ/b(a*c)/b, a/b—cvbs(a-c)vb dir. Doğrusal bir koşu parkuru üzerinde bulunan üç koşucudan A noktasındakinin başlangıç çizgisine uzaklığı V128 m, B noktasındakinin bitiş çizgisine uzaklığı 4/2 m'dir. C noktasında bulunan koşucu, A ile B noktaları arasında olup B noktasına daha yakındır. Başlangıç                                                                                                                              Bitiş Parkurun uzunluğu 512 metre olduğuna göre, C noktasının bitiş çizgisine uzaklığı metre cinsinden aşağıda- kilerden hangisi olabilir?",
+    "options": [
+      "A) vV108                             B) v72                               C) V48                               D) v32"
+    ],
+    "full_text": "a,b, c birerdoğal sayı olmak üzere ayb - ya?.b,a/b*tcJ/b(a*c)/b, a/b—cvbs(a-c)vb dir. Doğrusal bir koşu parkuru üzerinde bulunan üç koşucudan A noktasındakinin başlangıç çizgisine uzaklığı V128 m, B noktasındakinin bitiş çizgisine uzaklığı 4/2 m'dir. C noktasında bulunan koşucu, A ile B noktaları arasında olup B noktasına daha yakındır. Başlangıç                                                                                                                              Bitiş Parkurun uzunluğu 512 metre olduğuna göre, C noktasının bitiş çizgisine uzaklığı metre cinsinden aşağıda- kilerden hangisi olabilir? A) vV108                             B) v72                               C) V48                               D) v32",
+    "page": 21,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "56",
+    "raw_text": "a, b birer doğal sayı olmak üzere avb - ya? b ir. Aşağıda verilen sepette her birinin kütlesi V2 g olan mavi bilyeler ve her birinin kütlesi 3v2 g olan kırmızı bilyeler bu- lunmaktadır. ©  Mavi        ©  Kırmızı 2g                     3v2g Bu bilyelerden belirli sayıda alınarak bir terazide tartıldığında toplam kütlenin 19 g ile 20 g arasında ve 20 grama daha yakın olduğu görülmüştür. Buna göre teraziye konulan mavi bilye sayısı aşağıdakilerden hangisi olamaz?",
+    "options": [
+      "A) 8                                     B)6                                      C)5                                     D)2"
+    ],
+    "full_text": "a, b birer doğal sayı olmak üzere avb - ya? b ir. Aşağıda verilen sepette her birinin kütlesi V2 g olan mavi bilyeler ve her birinin kütlesi 3v2 g olan kırmızı bilyeler bu- lunmaktadır. ©  Mavi        ©  Kırmızı 2g                     3v2g Bu bilyelerden belirli sayıda alınarak bir terazide tartıldığında toplam kütlenin 19 g ile 20 g arasında ve 20 grama daha yakın olduğu görülmüştür. Buna göre teraziye konulan mavi bilye sayısı aşağıdakilerden hangisi olamaz? A)8                                     B)6                                      C)5                                     D)2",
+    "page": 22,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "57",
+    "raw_text": "a, b, c, d birer doğal sayı olmak üzere ab -c/dsa-cyb-d dir. Aşağıda aynı gün toprağa dikilen A ve B fidelerinin dikildikleri göndeki boylarının uzunlukları verilmiştir. A                                       B A fidesinin boyu her yıl bir önceki yıldaki boyunun v2 katına, B fidesinin boyu ise her yıl bir önceki yıldaki boyunun v3 katına çıkmaktadır. Buna göre A fidesinin boyunun 4/2 cm olduğu yıl, B fidesinin boyu kaç santimetredir?",
+    "options": [
+      "A) 4v3                                   B) 6v3                                   Cc)9v3                                  D)27v3"
+    ],
+    "full_text": "a, b, c, d birer doğal sayı olmak üzere ab -c/dsa-cyb-d dir. Aşağıda aynı gün toprağa dikilen A ve B fidelerinin dikildikleri göndeki boylarının uzunlukları verilmiştir. A                                       B A fidesinin boyu her yıl bir önceki yıldaki boyunun v2 katına, B fidesinin boyu ise her yıl bir önceki yıldaki boyunun v3 katına çıkmaktadır. Buna göre A fidesinin boyunun 4/2 cm olduğu yıl, B fidesinin boyu kaç santimetredir? A) 4v3                                   B) 6v3                                   Cc)9v3                                  D)27v3",
+    "page": 22,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "58",
+    "raw_text": "a, b, c birerdoğal sayı olmaküzereayb- ya? .b ,a/b*cy/b-(a*c)/b, a/b—cvbs(a—cybdir. Adem amcanın 72 dekametrekare ve 98 dekametrekare büyüklüğünde kare şeklinde iki bahçesi vardır. Birer kö- şeleri ortak olan bu bahçeler ve bu bahçelerin köşelerinde bulunan kare biçimindeki iki sulara havuzu aşağıdaki şe- kilde modellenmiştir. Bu havuzların ikişer kenarları bahçelerin ikişer kenarlarıyla çakışık ve her birinin yüzey alanı",
+    "options": [],
+    "full_text": "a, b, c birerdoğal sayı olmaküzereayb- ya? .b ,a/b*cy/b-(a*c)/b, a/b—cvbs(a—cybdir. Adem amcanın 72 dekametrekare ve 98 dekametrekare büyüklüğünde kare şeklinde iki bahçesi vardır. Birer kö- şeleri ortak olan bu bahçeler ve bu bahçelerin köşelerinde bulunan kare biçimindeki iki sulara havuzu aşağıdaki şe- kilde modellenmiştir. Bu havuzların ikişer kenarları bahçelerin ikişer kenarlarıyla çakışık ve her birinin yüzey alanı",
+    "page": 23,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "orta"
+  },
+  {
+    "question_number": "59",
+    "raw_text": "a,b,c, dbirerdoğal sayı olmaküzerea/b ya?.b avb*cy/bs(a*c)/ba/b-c/dsa-c/bddir Aşağıda A, B, C çubukları ile A çubuğunun uzunluğu verilmiştir. A                                       B                               Cc RR sm        İn         nn 62cm B çubuğunun uzunluğu C çubuğunun uzunluğunun v2 katı, A çubuğunun uzunluğu ise B çubuğunun uzunluğunun v2 katıdır. Mete, bu çubuklardan 12 tanesini uç uca ekleyerek (12 * 482) cm uzunluğunda bir çubuk elde etmiştir. Buna göre Mete C çubuğundan kaç tane kullanmıştır?",
+    "options": [
+      "A) 2                                            B)4                                            C)6                                            D)8"
+    ],
+    "full_text": "a,b,c, dbirerdoğal sayı olmaküzerea/b ya?.b avb*cy/bs(a*c)/ba/b-c/dsa-c/bddir Aşağıda A, B, C çubukları ile A çubuğunun uzunluğu verilmiştir. A                                       B                               Cc RR sm        İn         nn 62cm B çubuğunun uzunluğu C çubuğunun uzunluğunun v2 katı, A çubuğunun uzunluğu ise B çubuğunun uzunluğunun v2 katıdır. Mete, bu çubuklardan 12 tanesini uç uca ekleyerek (12 * 482) cm uzunluğunda bir çubuk elde etmiştir. Buna göre Mete C çubuğundan kaç tane kullanmıştır? A)2                                            B)4                                            C)6                                            D)8",
+    "page": 23,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "62",
+    "raw_text": "a, b birerdoğal sayı olmak üzere ayb - ya? .b dir. Bir uçlu kalem, 10 cm uzunluğundaki ucunun 3 cm'lik kısmı dışarıda iken şekildeki gibi olmaktadır. 3cm Bu uçlu kalemin arkasına her basıldığında ucun y2 cm'lik kısmı dışarı çıkmaktadır. Bu kalem şekildeki konumda iken kalemin arkasına 3 defa basılıyor. Buna göre son durumda ucun, kalemin içinde kalan kısmının santimetre cinsinden uzunluğu hangi ardışık iki doğal sayı arasındadır?",
+    "options": [
+      "A) 1ile2               B)2ile3               C)3ile4               D)4ie5"
+    ],
+    "full_text": "a, b birerdoğal sayı olmak üzere ayb - ya? .b dir. Bir uçlu kalem, 10 cm uzunluğundaki ucunun 3 cm'lik kısmı dışarıda iken şekildeki gibi olmaktadır. 3cm Bu uçlu kalemin arkasına her basıldığında ucun y2 cm'lik kısmı dışarı çıkmaktadır. Bu kalem şekildeki konumda iken kalemin arkasına 3 defa basılıyor. Buna göre son durumda ucun, kalemin içinde kalan kısmının santimetre cinsinden uzunluğu hangi ardışık iki doğal sayı arasındadır? A) 1ile2               B)2ile3               C)3ile4               D)4ie5",
+    "page": 24,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "64",
+    "raw_text": "a, b, c birer doğal sayı olmaküzereayb > ya? .b,ayb*cy/bz(ascjyb, a/b—cvbz(a-c)Vbdir. Bir yüzünün alanı 36v2 cm? olan dikdörtgen biçimindeki bir kâğıt Şekil 1'de verilmiştir. Ön yüzü turuncu, arka yüzü mavi renkli olan bu kâğıt, kısa kenarları uzun kenarları ile çakışacak biçimde köşelerinden Şekil 2'deki gibi katlanmıştır. A               B Şekil 1                                                                          Şekil 2 Şekil 2'de gösterilen mavi bölgelerin alanları toplamı 18 cm? olduğuna göre AB kenarının santimetre cinsin- den uzunluğu hangi ardışık iki doğal sayı arasındadır?",
+    "options": [
+      "A) 2ile3       B)3ile4       C)4ile5       D) S5 ile6"
+    ],
+    "full_text": "a, b, c birer doğal sayı olmaküzereayb > ya? .b,ayb*cy/bz(ascjyb, a/b—cvbz(a-c)Vbdir. Bir yüzünün alanı 36v2 cm? olan dikdörtgen biçimindeki bir kâğıt Şekil 1'de verilmiştir. Ön yüzü turuncu, arka yüzü mavi renkli olan bu kâğıt, kısa kenarları uzun kenarları ile çakışacak biçimde köşelerinden Şekil 2'deki gibi katlanmıştır. A               B Şekil 1                                                                          Şekil 2 Şekil 2'de gösterilen mavi bölgelerin alanları toplamı 18 cm? olduğuna göre AB kenarının santimetre cinsin- den uzunluğu hangi ardışık iki doğal sayı arasındadır? A) 2ile3       B)3ile4       C)4ile5       D) S5 ile6",
+    "page": 24,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "67",
+    "raw_text": "a, b, c, dbirerdoğal sayı olmak üzere a/b ya? .b,avb*cy/bs(a*c)/b, ayb-cybs(a-c)Jb, avb-c/dsa-cybd dir. Şekil 1'de kenar uzunlukları verilen dikdörtgen şeklindeki dört bahçeden A ve B bahçeleri Eren'e, C ve D bahçeleri Ali'ye aittir. V88 hm V50 hm vV5ü h V8 hm Şekil 1                                                        Şekil 2 Ali ve Eren ikişer parça şeklinde bulunan bahçelerini, kendilerine ait bahçelerin toplam alanları değişmeyecek biçimde Şekil 2'deki gibi birleştirdiklerinde dikdörigen şeklinde birer bahçeleri oluşmuştur. Buna göre birleştirme işleminden sonra Eren'in bahçesinin çevresinin uzunluğu kaç hektometredir?",
+    "options": [
+      "A) 12v2                           B) 14v2                            C) 18v2                           D) 24v2"
+    ],
+    "full_text": "a, b, c, dbirerdoğal sayı olmak üzere a/b ya? .b,avb*cy/bs(a*c)/b, ayb-cybs(a-c)Jb, avb-c/dsa-cybd dir. Şekil 1'de kenar uzunlukları verilen dikdörtgen şeklindeki dört bahçeden A ve B bahçeleri Eren'e, C ve D bahçeleri Ali'ye aittir. V88 hm V50 hm vV5ü h V8 hm Şekil 1                                                        Şekil 2 Ali ve Eren ikişer parça şeklinde bulunan bahçelerini, kendilerine ait bahçelerin toplam alanları değişmeyecek biçimde Şekil 2'deki gibi birleştirdiklerinde dikdörigen şeklinde birer bahçeleri oluşmuştur. Buna göre birleştirme işleminden sonra Eren'in bahçesinin çevresinin uzunluğu kaç hektometredir? A) 12v2                           B) 14v2                            C) 18v2                           D) 24v2",
+    "page": 25,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  },
+  {
+    "question_number": "69",
+    "raw_text": "a, b, c birerdoğal sayı olmaküzereaybs ya”.b a/b*c/bz(a*cb a/b—cvbz(a—cvbdir. Aşağıda bir kenar uzunluğu 147 m olan kare şeklinde bir levha verilmiştir. NN  © Bu levhanın köşelerini merkez kabul eden ve yarıçap uzunluğu V1Z m olan dört tane çeyrek daire dilimi levhadan ke- silerek atılacak ve kalan parça tabela tasarımında kullanılacaktır. Tabela tasarımında kullanılacak bu parçanın çevresinin uzunluğu kaç metredir? (x yerine 3 alınız.)",
+    "options": [
+      "A) 16v3                                   B) 20v3                                   OAB                                  D) 283"
+    ],
+    "full_text": "a, b, c birerdoğal sayı olmaküzereaybs ya”.b a/b*c/bz(a*cb a/b—cvbz(a—cvbdir. Aşağıda bir kenar uzunluğu 147 m olan kare şeklinde bir levha verilmiştir. NN  © Bu levhanın köşelerini merkez kabul eden ve yarıçap uzunluğu V1Z m olan dört tane çeyrek daire dilimi levhadan ke- silerek atılacak ve kalan parça tabela tasarımında kullanılacaktır. Tabela tasarımında kullanılacak bu parçanın çevresinin uzunluğu kaç metredir? (x yerine 3 alınız.) A) 16v3                                   B) 20v3                                   OAB                                  D) 283",
+    "page": 25,
+    "is_koklu": true,
+    "extraction_method": "ocr",
+    "source_file": "karekok_sorular.pdf",
+    "source_type": "pdf_karekok",
+    "question_type": "yeni_nesil",
+    "has_image": true,
+    "has_table": false,
+    "has_graph": false,
+    "has_encoding_issues": false,
+    "complexity": "yüksek"
+  }
+]
